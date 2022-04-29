@@ -1,0 +1,5 @@
+credentials_google_cloud.txt
+__pycache__
+.mypy_cache
+.pytest_cache
+dist

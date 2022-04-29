@@ -1,0 +1,45 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+      - id: check-yaml
+        args: [--allow-multiple-documents]
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v2.3.2
+    hooks:
+      - id: prettier
+        exclude: ^poetry.lock
+  - repo: local
+    hooks:
+      - id: isort
+        name: isort
+        entry: poetry run isort src tests
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: black
+        name: black
+        entry: poetry run black src tests
+        language: system
+        types: [python]
+      - id: flake8
+        name: flake8
+        entry: poetry run flake8 src tests
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: mypy
+        name: mypy
+        entry: poetry run mypy --strict
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: bandit
+        name: bandit
+        entry: poetry run bandit -r src
+        language: system
+        types: [python]
+        pass_filenames: false

@@ -3,3 +3,21 @@ include:
     file:
       - "poetry-3.8.yml"
     ref: "2.2.0"
+
+variables:
+  POSTGRESQL_DATABASE: street_view_db
+  POSTGRESQL_USERNAME: postgres
+  POSTGRESQL_PASSWORD: postgres
+
+pytest:
+  services:
+    - name: bitnami/postgresql:14.2.0
+      alias: postgresql
+  extends: .base_poetry_test
+  script:
+    - poetry run pytest --cov=$SOURCE_DIRECTORY $TESTS_DIRECTORY --junitxml=report.xml
+  coverage: '/^TOTAL.+?(\d+\%)$/'
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml

@@ -3,3 +3,9 @@ __pycache__
 .mypy_cache
 .pytest_cache
 dist
+database/
+*.png
+.idea
+API_KEY.txt
+API_KEY2.txt
+*.pyc

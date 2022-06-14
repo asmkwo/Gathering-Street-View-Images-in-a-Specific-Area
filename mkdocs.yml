@@ -1,0 +1,15 @@
+site_name: Developer Reference
+nav:
+  - Getting Started: "getting-started.md"
+  - Other Section: "other_doc.md"
+  - Another Section: "somedir/somedoc.md"
+theme:
+  name: "mkdocs"
+  icon:
+    repo: fontawesome/brands/gitlab
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true

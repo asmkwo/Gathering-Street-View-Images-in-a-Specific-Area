@@ -18,7 +18,7 @@ from jeddah.request_images import (
 
 DATABASE_DIRECTORY = Path(os.environ['DATABASE_TEST_PATH'])
 if not Path.exists(DATABASE_DIRECTORY):
-    DATABASE_DIRECTORY.mkdir()
+    DATABASE_DIRECTORY.mkdir(parents=True)
 
 # sqlalchemy database setup
 test_database = Database()

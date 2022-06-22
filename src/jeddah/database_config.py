@@ -82,17 +82,15 @@ class PathForDatabase(Base):
 
 
 class Database:
-    # def __init__(self) -> None:
-    #     self.url: Union[str, None] = None
-    #     self.engine: Union[str, None] = None
-
-    def setup(self, db_name: str = 'street_view_db') -> Any:
+    def __init__(self, db_name: str = 'street_view_db') -> None:
         db_host = os.getenv('POSTGRESQL_HOST', 'localhost')
         db_port = os.getenv('POSTGRESQL_PORT', '5432')
         self.url = (
             f"postgresql+psycopg2://postgres:postgres@{db_host}:{db_port}/{db_name}"
         )
         self.engine = create_engine(self.url, echo=True)
+
+    def setup(self) -> Any:
 
         if not database_exists(self.engine.url):
             create_database(self.engine.url)

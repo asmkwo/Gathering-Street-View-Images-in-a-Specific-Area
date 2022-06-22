@@ -5,8 +5,8 @@ from sqlalchemy_utils import database_exists
 from jeddah.database_config import Database, Image, PathForDatabase, PointForDatabase
 
 
-database = Database()
-database.setup(db_name='street_view_db_testing')
+database = Database(db_name='street_view_db_testing')
+database.setup()
 
 
 def test_setup_database_exists():

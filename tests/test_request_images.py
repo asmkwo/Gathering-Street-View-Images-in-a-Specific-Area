@@ -21,8 +21,8 @@ if not Path.exists(DATABASE_DIRECTORY):
     DATABASE_DIRECTORY.mkdir(parents=True)
 
 # sqlalchemy database setup
-test_database = Database()
-test_database.setup('street_view_db_test')
+test_database = Database(db_name='street_view_db_test')
+test_database.setup()
 
 
 def test_get_single_image():

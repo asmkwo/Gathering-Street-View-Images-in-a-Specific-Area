@@ -10,7 +10,7 @@ class Point:
         self.longitude = longitude
 
     def __repr__(self) -> str:
-        return "Latitude : " + str(self.latitude) + " Longitude : " + str(self.longitude)
+        return str(self.latitude) + "," + str(self.longitude)
 
     def __eq__(self, other: Any) -> bool:
         """
@@ -26,9 +26,5 @@ class Point:
         else:
             raise TypeError('Wrong type comparison. You are not comparing two points. ')
 
-    def to_simple_string(self) -> str:
-        """
-        Turns the latitude and longitude into string a simple string for the request
-        module
-        """
+    def __str__(self) -> str:
         return str(self.latitude) + "," + str(self.longitude)

@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 from typing import Any, Dict, List, Union
 
@@ -8,15 +7,15 @@ from requests import Response
 from jeddah.create_path import get_heading
 from jeddah.database_config import Database, Image, PathForDatabase, PointForDatabase
 from jeddah.point import Point
+from settings.settings import settings
 
 
 # GLOBAL VARIABLES
-
-API_KEY = os.environ['API_KEY']
+API_KEY = settings.api_key.get_secret_value()
 
 # GLOBAL LINKS
-META_BASE = 'https://maps.googleapis.com/maps/api/streetview/metadata?'
-PIC_BASE = 'https://maps.googleapis.com/maps/api/streetview?'
+META_BASE = settings.meta_base
+PIC_BASE = settings.pic_base
 
 
 def get_single_image(point: Point, heading: int = 0) -> Response:
@@ -25,8 +24,8 @@ def get_single_image(point: Point, heading: int = 0) -> Response:
     """
 
     params: Dict[str, Union[int, str]] = {
-        'key': API_KEY,
-        'location': point.to_simple_string(),
+        "key": API_KEY,
+        'location': str(point),
         'size': "640x640",
         'fov': 100,
         'heading': heading,
@@ -37,6 +36,10 @@ def get_single_image(point: Point, heading: int = 0) -> Response:
     }
     response = requests.get(PIC_BASE, params=params)
 
+    try:
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        return "Error: " + str(e)
     return response
 
 
@@ -44,7 +47,7 @@ def get_metadata(point: Point) -> Any:
     """
     Not used at the moment, could be for future issues
     """
-    params = {'key': API_KEY, 'location': point.to_simple_string()}
+    params = {'key': API_KEY, 'location': str(point)}
     meta_response = requests.get(META_BASE, params=params)
     return meta_response
 
@@ -81,7 +84,7 @@ def get_both_direction_images(
 
 
 def get_images_along_path(
-    point_list: List[Point],
+    path: List[Point],
     project_name: str,
     database: Database,
     project_directory: Path,
@@ -94,7 +97,7 @@ def get_images_along_path(
     """
 
     # creating path object for database
-    path = PathForDatabase(
+    database_path = PathForDatabase(
         name=project_name,
         client='Tesla',
         street='needs geocoding',
@@ -102,19 +105,19 @@ def get_images_along_path(
         country='needs geocoding',
     )
     # duplicating last point so it's not ignored in the for loop
-    point_list.append(point_list[-1])
-    for index, point in enumerate(point_list[:-1]):
-        azimuth = get_heading(point_list[index], point_list[index + 1])
+    path.append(path[-1])
+    for index, point in enumerate(path[:-1]):
+        heading = get_heading(path[index], path[index + 1])
         # creating point object for db
         point_for_db = PointForDatabase(
             path_index=index, latitude=point.latitude, longitude=point.longitude
         )
-        path.path_relation.append(point_for_db)
+        database_path.path_relation.append(point_for_db)
         get_both_direction_images(
             point,
             project_directory,
-            azimuth,
+            heading,
             index,
             point_for_db,
         )
-    database.save(path)
+    database.save(database_path)

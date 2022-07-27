@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["marc <marc.devaugiraud@upciti.com>"]
 
+[tool.poetry.scripts]
+jeddah = "jeddah.main:main"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 psycopg2-binary = "^2.9.3"
@@ -11,24 +14,24 @@ SQLAlchemy-Utils = "^0.38.2"
 pyproj = "^3.3.1"
 SQLAlchemy = {extras = ["mypy"], version = "^1.4.37"}
 requests = "^2.28.0"
+typer = "^0.4.1"
+python-settings = "^0.2.2"
+pydantic = "^1.9.1"
+opencv-python = "^4.6.0"
+osmnx = "^1.2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1"
 bandit = "^1.7.4"
-mypy = "^0.950"
+mypy = "0.950"
 flake8 = "^4.0.1"
 black = "^22.3.0"
 isort = "^5.10.1"
 pytest-cov = "^3.0.0"
 types-requests = "^2.27.30"
 
-[tool.mypy]
-files = "src"
-plugins="sqlalchemy.ext.mypy.plugin"
 
-[[tool.mypy.overrides]]
-module = ['sqlalchemy_utils.*']
-ignore_missing_imports = true
+
 
 [tool.black]
 skip-string-normalization = true

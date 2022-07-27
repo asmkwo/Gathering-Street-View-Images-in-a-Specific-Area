@@ -9,3 +9,5 @@ database/
 API_KEY.txt
 API_KEY2.txt
 *.pyc
+settings.py
+*.pyc

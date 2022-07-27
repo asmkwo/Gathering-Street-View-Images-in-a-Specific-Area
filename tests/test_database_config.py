@@ -28,18 +28,7 @@ def test_setup_table_images_exists():
     assert inspector.has_table('images')
 
 
-def test_path_instance():
-    path = PathForDatabase(
-        name='test_path',
-        client='test_client',
-        street='test_street',
-        city='test_city',
-        country='swatziland',
-    )
-    assert path.name == 'test_path'
-
-
-def test_save_path():
+def test_save_path_effectively_saves_a_path():
     path = PathForDatabase(
         name='test_path',
         client='test_client',
@@ -50,19 +39,16 @@ def test_save_path():
     database.save(path)
     Session = sessionmaker(database.engine)
     session = Session()
-    path_instance = session.query(PathForDatabase).where(
-        PathForDatabase.name == 'test_path'
-    )
-    assert path_instance is not None
+    try:
+        path_instance = session.query(PathForDatabase).where(
+            PathForDatabase.name == 'test_path'
+        )
+        assert path_instance is not None
+    finally:
+        session.close()
 
 
-def test_point_instance():
-
-    point = PointForDatabase(path_index=0, latitude=45.2, longitude=24.3)
-    assert point.latitude == 45.2
-
-
-def test_save_point():
+def test_save_point_saves_a_point_in_database():
     # need to create a path first as both are linked by backref
     path = PathForDatabase(
         name='test_path',
@@ -80,26 +66,24 @@ def test_save_point():
     database.save(path)
     Session = sessionmaker(database.engine)
     session = Session()
-    point_1_instance = session.query(PointForDatabase).where(
-        PointForDatabase.latitude == 45.2
-    )
-    point_2_instance = session.query(PointForDatabase).where(
-        PointForDatabase.longitude == 67.3
-    )
-    assert point_1_instance is not None
-    assert point_2_instance is not None
+    try:
+        point_1_instance = session.query(PointForDatabase).where(
+            PointForDatabase.latitude == 45.2
+        )
+        point_2_instance = session.query(PointForDatabase).where(
+            PointForDatabase.longitude == 67.3
+        )
+        assert point_1_instance is not None
+        assert point_2_instance is not None
 
-    session.query(PointForDatabase).delete()
-    session.query(PathForDatabase).delete()
-    session.commit()
-
-
-def test_image_instance():
-    image = Image(img_path='test_path', heading=120)
-    assert image.heading == 120
+        session.query(PointForDatabase).delete()
+        session.query(PathForDatabase).delete()
+        session.commit()
+    finally:
+        session.close()
 
 
-def test_save_image():
+def test_save_image_saves_image_details_in_database():
     path = PathForDatabase(
         name='test_path',
         client='test_client',
@@ -117,9 +101,11 @@ def test_save_image():
     database.save(path)
     Session = sessionmaker(database.engine)
     session = Session()
-
-    assert session.query(Image).count() == 2
-    session.query(Image).delete()
-    session.query(PointForDatabase).delete()
-    session.query(PathForDatabase).delete()
-    session.commit()
+    try:
+        assert session.query(Image).count() == 2
+        session.query(Image).delete()
+        session.query(PointForDatabase).delete()
+        session.query(PathForDatabase).delete()
+        session.commit()
+    finally:
+        session.close()

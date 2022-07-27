@@ -1,27 +1,24 @@
 import math
-import os
+from time import sleep
 from typing import List, Tuple
 
 import pyproj
 import requests
 
-from jeddah.conversion_functions import (
-    coords_as_path,
-    create_point_list,
-    json_as_point_list,
-)
+from jeddah.conversion_functions import coords_as_path_str, create_path, json_as_path
 from jeddah.point import Point
+from settings.settings import settings
 
 
 # GLOBAL LINKS
-META_BASE = 'https://maps.googleapis.com/maps/api/streetview/metadata?'
-PIC_BASE = 'https://maps.googleapis.com/maps/api/streetview?'
-ROADS_BASE = 'https://roads.googleapis.com/v1/snapToRoads?'
-MAPS_BASE = 'https://maps.googleapis.com/maps/api/staticmap?'
+META_BASE = settings.meta_base
+PIC_BASE = settings.pic_base
+ROADS_BASE = settings.roads_base
+MAPS_BASE = settings.maps_base
 
 # GLOBAL VARIABLES
 EARTH_RADIUS_IN_KILOMETERS = 6378
-API_KEY = os.environ['API_KEY']
+API_KEY = settings.api_key.get_secret_value()
 
 
 def snap_to_road_and_interpolate(point_list: List[Point]) -> List[Point]:
@@ -31,7 +28,7 @@ def snap_to_road_and_interpolate(point_list: List[Point]) -> List[Point]:
 
     """
     # request to Roads API requires the path to be a certain string format
-    coords_as_path_for_api = coords_as_path(point_list)
+    coords_as_path_for_api = coords_as_path_str(point_list)
 
     params = {
         'key': API_KEY,
@@ -44,7 +41,7 @@ def snap_to_road_and_interpolate(point_list: List[Point]) -> List[Point]:
         json_path = response.json()
 
         # turn the json response into a list
-        point_list = json_as_point_list(json_path)
+        point_list = json_as_path(json_path)
 
     except requests.exceptions.HTTPError as e:
         print("Error: " + str(e))
@@ -154,17 +151,6 @@ def make_a_step_and_snap(heading: int, current_point: Point, distance: int) -> P
     Make a step of a certain distance in the given direction (heading), creates a point
     and snaps it to the nearest road
     """
-    next_point = get_point_after_step(heading, current_point, distance)
-
-    snapped_point = snap_single_point_to_roads(next_point)
-
-    return snapped_point
-
-
-def get_point_after_step(heading: int, current_point: Point, distance: int) -> Point:
-    """
-    Creates a new points after making a step
-    """
     lat, long = current_point.latitude, current_point.longitude
 
     dy, dx = get_delta_shift(heading, distance)
@@ -175,6 +161,8 @@ def get_point_after_step(heading: int, current_point: Point, distance: int) -> P
     ) / math.cos(lat * math.pi / 180)
     next_point = Point(new_lat, new_long)
 
+    snapped_point = snap_single_point_to_roads(next_point)
+
     return next_point
 
 
@@ -184,30 +172,17 @@ def get_delta_shift(heading: int, distance: int) -> Tuple[float, float]:
      our current point from the next point
 
     :param heading : Direction in which you want to make a step
-    :param threshold : Distance of the step
+    :param distance : Distance of the step
     """
     theta = math.radians(heading)
-    dx = distance * math.cos(theta)
-    dy = distance * math.sin(theta)
-    return dx, dy
+    x_variation = distance * math.cos(theta)
+    y_variation = distance * math.sin(theta)
+    return x_variation, y_variation
 
 
-def snap_single_point_to_roads(point: Point) -> Point:
-    string_point = point.to_simple_string()
-    params = {
-        'key': API_KEY,
-        'path': string_point,
-    }
-    response = requests.get(ROADS_BASE, params=params)
-    json_path = response.json()
-
-    point_list = json_as_point_list(json_path)
-    snapped_point = point_list[0]
-
-    return snapped_point
-
-
-def point_list_with_threshold(point_list: List[Point], threshold: int) -> List[Point]:
+def prune_point_list_with_threshold(
+    point_list: List[Point], threshold: int
+) -> List[Point]:
     """
     Returns a list containing the points that are at least separated by the distance
      defined by the threshold
@@ -225,13 +200,17 @@ def point_list_with_threshold(point_list: List[Point], threshold: int) -> List[P
     return point_list_with_threshold
 
 
-def path_process(path: str) -> List[Point]:
+def process_path(path: List[Point], threshold: int = 10) -> List[Point]:
     """
     :return: List of points fully processed, with points evenly separated
     """
-    point_list = create_point_list(path)
-    point_list_snapped = snap_to_road_and_interpolate(point_list)
-    threshold = 10
-    point_list_filled = filling_missing_points(point_list_snapped, threshold)
-    point_list_pruned = point_list_with_threshold(point_list_filled, threshold)
+
+    point_list_filled = filling_missing_points(path, threshold)
+    point_list_pruned = prune_point_list_with_threshold(point_list_filled, threshold)
     return point_list_pruned
+
+
+def path_str_pre_process(path: str) -> List[Point]:
+    point_list = create_path(path)
+    point_list_snapped = snap_to_road_and_interpolate(point_list)
+    return point_list_snapped

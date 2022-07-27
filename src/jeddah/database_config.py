@@ -1,4 +1,3 @@
-import os
 from typing import Any, List
 
 from sqlalchemy import (
@@ -13,6 +12,8 @@ from sqlalchemy import (
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, sessionmaker
 from sqlalchemy_utils import create_database, database_exists
+
+from settings.settings import settings
 
 
 Base = declarative_base()
@@ -83,8 +84,8 @@ class PathForDatabase(Base):
 
 class Database:
     def __init__(self, db_name: str = 'street_view_db') -> None:
-        db_host = os.getenv('POSTGRESQL_HOST', 'localhost')
-        db_port = os.getenv('POSTGRESQL_PORT', '5432')
+        db_host = settings.postgresql_hostname
+        db_port = settings.postgresql_port
         self.url = (
             f"postgresql+psycopg2://postgres:postgres@{db_host}:{db_port}/{db_name}"
         )
@@ -103,10 +104,11 @@ class Database:
 
         return self.engine
 
-    def save(
-        self, object_to_save: Any
-    ) -> None:  # should'nt be any but 'object that inherits from base class'
+    def save(self, object_to_save: Base) -> None:  # changed from Any to Base, workin ?
         Session = sessionmaker(self.engine)
         session = Session()
-        session.add(object_to_save)
-        session.commit()
+        try:
+            session.add(object_to_save)
+            session.commit()
+        finally:
+            session.close()

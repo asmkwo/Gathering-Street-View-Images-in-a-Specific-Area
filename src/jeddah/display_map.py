@@ -1,38 +1,70 @@
-import os
 from pathlib import Path
 from typing import Dict, List, Union
 
 import requests
 from requests import Response
 
-from jeddah.conversion_functions import coords_as_path
+from jeddah.conversion_functions import coords_as_path_str
 from jeddah.point import Point
+from settings.settings import settings
 
 
-base_maps = 'https://maps.googleapis.com/maps/api/staticmap?'
-API_KEY = os.environ['API_KEY']
+API_KEY = settings.api_key.get_secret_value()
+BASE_MAPS = settings.maps_base
 
 
-def get_map(point_list: List[Point]) -> Response:
+def get_map(path: List[Point]) -> Response:
     """
-    Returns a map with the markers placed where indicated by point_list
+    Returns a map with the markers placed where indicated by path
     """
     params: Dict[str, Union[int, str]] = {
         'key': API_KEY,
-        'markers': 'size:small' + coords_as_path(point_list),
+        'markers': 'size:small|' + coords_as_path_str(path),
         'size': '500x400',
         'scale': 4,
     }
-    response = requests.get(base_maps, params=params)
+    response = requests.get(BASE_MAPS, params=params)
     return response
 
 
-def save_map(point_list: List[Point], project_directory: Path) -> None:
+def get_map_w_paths(path_list: List[str], center_point: tuple) -> Response:
+    """
+    Returns a map with the markers placed where indicated by path
+    """
+    params: Dict[str, Union[int, str]] = {
+        'key': API_KEY,
+        'size': '500x400',
+        'scale': 2,
+        'format': 'PNG',
+        'path': path_list,
+        'markers': str(center_point),
+        'center': '48.869196 2.338722',
+        'zoom': 15,
+    }
+    response = requests.get(BASE_MAPS, params=params)
+
+    try:
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        return "Error: " + str(e)
+
+    return response
+
+
+def save_map(path: List[Point], project_directory: Path) -> None:
     """
     Requests a map and stores it into the project directory
     """
-    map_request = get_map(point_list)
+    map_request = get_map(path)
     map_path = project_directory / 'map.png'
+    with map_path.open('wb') as file:
+        file.write(map_request.content)
+    map_request.close()
+
+
+def save_map_from_request(map_request: Response, project_directory: Path, name: str = ''):
+    name_of_image = 'map' + name + '.png'
+    map_path = project_directory / name_of_image
     with map_path.open('wb') as file:
         file.write(map_request.content)
     map_request.close()

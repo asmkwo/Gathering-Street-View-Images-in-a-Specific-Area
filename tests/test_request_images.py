@@ -5,7 +5,7 @@ import shutil
 
 from sqlalchemy.orm import sessionmaker
 
-from jeddah.create_path import create_point_list
+from jeddah.create_path import create_path
 from jeddah.database_config import Database, Image, PathForDatabase, PointForDatabase
 from jeddah.point import Point
 from jeddah.request_images import (
@@ -74,6 +74,7 @@ def test_get_both_direction_images_stores_in_db():
     session.query(PointForDatabase).delete()
     session.query(PathForDatabase).delete()
     session.commit()
+    session.close()
 
 
 def test_get_both_direction_images_store_locally():
@@ -91,7 +92,7 @@ def test_get_both_direction_images_store_locally():
 
 def test_get_images_along_path_check_for_project_directory():
     path = '44.851332,-0.609030|44.850580,-0.606297'
-    point_list = create_point_list(path)
+    point_list = create_path(path)
     test_project_path = DATABASE_DIRECTORY / 'test_project'
     if test_project_path.exists():
         shutil.rmtree(str(test_project_path))
@@ -107,3 +108,4 @@ def test_get_images_along_path_check_for_project_directory():
     session.query(PointForDatabase).delete()
     session.query(PathForDatabase).delete()
     session.commit()
+    session.close()

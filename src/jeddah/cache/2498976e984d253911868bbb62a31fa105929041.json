@@ -1,0 +1,4760 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.58.3 b33c3320",
+  "osm3s": {
+    "timestamp_osm_base": "2022-07-12T15:40:09Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    { "type": "node", "id": 21734223, "lat": 40.4165084, "lon": -3.7050496 },
+    {
+      "type": "node",
+      "id": 21734224,
+      "lat": 40.4164178,
+      "lon": -3.705769,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734231,
+      "lat": 40.415718,
+      "lon": -3.7066906,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734234,
+      "lat": 40.4149898,
+      "lon": -3.7080345,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734236,
+      "lat": 40.4154054,
+      "lon": -3.7066619,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734237,
+      "lat": 40.4151308,
+      "lon": -3.7066371,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734238,
+      "lat": 40.4157561,
+      "lon": -3.7079446,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734239,
+      "lat": 40.415807,
+      "lon": -3.7068339,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734240,
+      "lat": 40.415008,
+      "lon": -3.7076626,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734244,
+      "lat": 40.4162648,
+      "lon": -3.7069848,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734245,
+      "lat": 40.4167624,
+      "lon": -3.7069796,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734246,
+      "lat": 40.4168528,
+      "lon": -3.7073845,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734249,
+      "lat": 40.416148,
+      "lon": -3.7079128,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734250,
+      "lat": 40.4161249,
+      "lon": -3.7080199,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "source": "yahoo_maps"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21734251,
+      "lat": 40.4163757,
+      "lon": -3.7083902,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734252,
+      "lat": 40.4167712,
+      "lon": -3.7084672,
+      "tags": { "highway": "crossing", "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734253,
+      "lat": 40.4175707,
+      "lon": -3.7077681,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734254,
+      "lat": 40.4163773,
+      "lon": -3.7086384,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734255,
+      "lat": 40.4167948,
+      "lon": -3.7087281,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734256,
+      "lat": 40.4159887,
+      "lon": -3.7085766,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734257,
+      "lat": 40.4159424,
+      "lon": -3.7087624,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734258,
+      "lat": 40.4163178,
+      "lon": -3.7088209,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734266,
+      "lat": 40.4143755,
+      "lon": -3.7064047,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734267,
+      "lat": 40.4142913,
+      "lon": -3.7075209,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734269,
+      "lat": 40.4143302,
+      "lon": -3.7072691,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734270,
+      "lat": 40.4146198,
+      "lon": -3.7070137,
+      "tags": { "source": "yahoo_maps" }
+    },
+    { "type": "node", "id": 21734271, "lat": 40.4147508, "lon": -3.7070538 },
+    {
+      "type": "node",
+      "id": 21734272,
+      "lat": 40.4146884,
+      "lon": -3.7068005,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21734274,
+      "lat": 40.4150529,
+      "lon": -3.7067207,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21953989,
+      "lat": 40.4137223,
+      "lon": -3.7082439,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21954006,
+      "lat": 40.4145314,
+      "lon": -3.7080288,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21954040,
+      "lat": 40.414542,
+      "lon": -3.7084196,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21954137,
+      "lat": 40.4153066,
+      "lon": -3.7084549,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 21954198,
+      "lat": 40.414316,
+      "lon": -3.7084616,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 26067817,
+      "lat": 40.4196242,
+      "lon": -3.7095097,
+      "tags": { "created_by": "JOSM" }
+    },
+    {
+      "type": "node",
+      "id": 26212781,
+      "lat": 40.4194671,
+      "lon": -3.7112311,
+      "tags": { "created_by": "JOSM" }
+    },
+    {
+      "type": "node",
+      "id": 26212782,
+      "lat": 40.4187745,
+      "lon": -3.7103444,
+      "tags": { "highway": "traffic_signals", "traffic_signals:sound": "yes" }
+    },
+    { "type": "node", "id": 26212783, "lat": 40.4186071, "lon": -3.7101181 },
+    { "type": "node", "id": 26212784, "lat": 40.4184245, "lon": -3.7097613 },
+    { "type": "node", "id": 26212785, "lat": 40.4183995, "lon": -3.7093151 },
+    { "type": "node", "id": 26212786, "lat": 40.4183216, "lon": -3.7092601 },
+    { "type": "node", "id": 26213187, "lat": 40.4178993, "lon": -3.7099844 },
+    { "type": "node", "id": 26213190, "lat": 40.4178234, "lon": -3.7104142 },
+    { "type": "node", "id": 26213193, "lat": 40.417762, "lon": -3.7105869 },
+    { "type": "node", "id": 26213195, "lat": 40.4175675, "lon": -3.7109036 },
+    { "type": "node", "id": 26213196, "lat": 40.4170926, "lon": -3.7118669 },
+    {
+      "type": "node",
+      "id": 26213205,
+      "lat": 40.4171892,
+      "lon": -3.7108464,
+      "tags": { "created_by": "JOSM" }
+    },
+    { "type": "node", "id": 26213207, "lat": 40.4172676, "lon": -3.7104333 },
+    { "type": "node", "id": 26213210, "lat": 40.4166831, "lon": -3.7102238 },
+    { "type": "node", "id": 26213212, "lat": 40.4166349, "lon": -3.7098018 },
+    {
+      "type": "node",
+      "id": 26213214,
+      "lat": 40.4170555,
+      "lon": -3.7096894,
+      "tags": { "created_by": "JOSM" }
+    },
+    { "type": "node", "id": 26213216, "lat": 40.4171632, "lon": -3.7097699 },
+    { "type": "node", "id": 26213219, "lat": 40.4173543, "lon": -3.7100171 },
+    { "type": "node", "id": 26213221, "lat": 40.4168623, "lon": -3.7102838 },
+    { "type": "node", "id": 26213226, "lat": 40.4166359, "lon": -3.7108041 },
+    { "type": "node", "id": 26213229, "lat": 40.4161933, "lon": -3.709815 },
+    { "type": "node", "id": 26213231, "lat": 40.4161328, "lon": -3.7095921 },
+    { "type": "node", "id": 26213236, "lat": 40.4139473, "lon": -3.7081634 },
+    { "type": "node", "id": 26213270, "lat": 40.4139005, "lon": -3.7119461 },
+    { "type": "node", "id": 26213272, "lat": 40.4141801, "lon": -3.7099479 },
+    { "type": "node", "id": 26213276, "lat": 40.4142875, "lon": -3.7103862 },
+    { "type": "node", "id": 26213278, "lat": 40.4149936, "lon": -3.7122213 },
+    { "type": "node", "id": 26213280, "lat": 40.4152106, "lon": -3.7122374 },
+    {
+      "type": "node",
+      "id": 26213282,
+      "lat": 40.4154965,
+      "lon": -3.7106388,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    { "type": "node", "id": 26213283, "lat": 40.4155234, "lon": -3.7104857 },
+    {
+      "type": "node",
+      "id": 26213284,
+      "lat": 40.4155598,
+      "lon": -3.7102868,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    { "type": "node", "id": 26213285, "lat": 40.4170144, "lon": -3.7087205 },
+    { "type": "node", "id": 26213289, "lat": 40.4183551, "lon": -3.7084669 },
+    { "type": "node", "id": 26213290, "lat": 40.4183117, "lon": -3.7081824 },
+    { "type": "node", "id": 26213294, "lat": 40.4194409, "lon": -3.7091813 },
+    { "type": "node", "id": 26213295, "lat": 40.4193338, "lon": -3.7091876 },
+    { "type": "node", "id": 26213296, "lat": 40.4191606, "lon": -3.7092182 },
+    { "type": "node", "id": 26213297, "lat": 40.4190048, "lon": -3.7092881 },
+    { "type": "node", "id": 26213298, "lat": 40.4185147, "lon": -3.7096857 },
+    { "type": "node", "id": 26213303, "lat": 40.4178479, "lon": -3.7090479 },
+    { "type": "node", "id": 26213304, "lat": 40.4185744, "lon": -3.7090329 },
+    { "type": "node", "id": 26213305, "lat": 40.4191741, "lon": -3.7081216 },
+    { "type": "node", "id": 26213306, "lat": 40.4188248, "lon": -3.7082236 },
+    {
+      "type": "node",
+      "id": 26213313,
+      "lat": 40.4182761,
+      "lon": -3.7064915,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "smoothness": "excellent",
+        "wheelchair": "yes"
+      }
+    },
+    { "type": "node", "id": 26213314, "lat": 40.4182164, "lon": -3.7067774 },
+    {
+      "type": "node",
+      "id": 26213315,
+      "lat": 40.4182763,
+      "lon": -3.7072121,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "smoothness": "excellent",
+        "wheelchair": "yes"
+      }
+    },
+    { "type": "node", "id": 26213317, "lat": 40.4186223, "lon": -3.7070898 },
+    { "type": "node", "id": 26213323, "lat": 40.4190952, "lon": -3.7073667 },
+    { "type": "node", "id": 26213325, "lat": 40.4186701, "lon": -3.7074364 },
+    { "type": "node", "id": 26213326, "lat": 40.4182276, "lon": -3.7075314 },
+    { "type": "node", "id": 26213327, "lat": 40.4182283, "lon": -3.7073452 },
+    {
+      "type": "node",
+      "id": 26213328,
+      "lat": 40.4181302,
+      "lon": -3.7072813,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "smoothness": "excellent",
+        "wheelchair": "yes"
+      }
+    },
+    { "type": "node", "id": 26213329, "lat": 40.4179792, "lon": -3.7074056 },
+    { "type": "node", "id": 26213330, "lat": 40.4177653, "lon": -3.7069019 },
+    { "type": "node", "id": 26213525, "lat": 40.4141415, "lon": -3.7119421 },
+    { "type": "node", "id": 26213526, "lat": 40.4143308, "lon": -3.712534 },
+    { "type": "node", "id": 26213527, "lat": 40.4144272, "lon": -3.7125808 },
+    { "type": "node", "id": 26213528, "lat": 40.4145931, "lon": -3.7123844 },
+    { "type": "node", "id": 26213529, "lat": 40.4149182, "lon": -3.7124486 },
+    { "type": "node", "id": 26213530, "lat": 40.4145653, "lon": -3.7091547 },
+    { "type": "node", "id": 26213531, "lat": 40.4142895, "lon": -3.708957 },
+    { "type": "node", "id": 26213532, "lat": 40.4141277, "lon": -3.7088493 },
+    {
+      "type": "node",
+      "id": 26213534,
+      "lat": 40.4138262,
+      "lon": -3.7082065,
+      "tags": { "crossing": "traffic_signals", "highway": "traffic_signals" }
+    },
+    { "type": "node", "id": 26213536, "lat": 40.4151524, "lon": -3.7093305 },
+    { "type": "node", "id": 26213538, "lat": 40.4155616, "lon": -3.708798 },
+    { "type": "node", "id": 26213539, "lat": 40.4158424, "lon": -3.708836 },
+    { "type": "node", "id": 26213540, "lat": 40.4156605, "lon": -3.7081125 },
+    { "type": "node", "id": 26213541, "lat": 40.4162493, "lon": -3.7091335 },
+    { "type": "node", "id": 26213544, "lat": 40.4174971, "lon": -3.7093986 },
+    { "type": "node", "id": 26213545, "lat": 40.4168589, "lon": -3.7092942 },
+    { "type": "node", "id": 26213546, "lat": 40.4167805, "lon": -3.7093012 },
+    { "type": "node", "id": 26213547, "lat": 40.4168162, "lon": -3.7091532 },
+    { "type": "node", "id": 26213548, "lat": 40.4165412, "lon": -3.7089294 },
+    { "type": "node", "id": 26213573, "lat": 40.4164742, "lon": -3.7110801 },
+    { "type": "node", "id": 26213575, "lat": 40.4161675, "lon": -3.7107841 },
+    { "type": "node", "id": 26213576, "lat": 40.4160035, "lon": -3.7106247 },
+    { "type": "node", "id": 26213577, "lat": 40.4160803, "lon": -3.711222 },
+    { "type": "node", "id": 26213578, "lat": 40.4160428, "lon": -3.7115151 },
+    { "type": "node", "id": 26213579, "lat": 40.4159438, "lon": -3.7116921 },
+    { "type": "node", "id": 26213580, "lat": 40.4159412, "lon": -3.7113401 },
+    { "type": "node", "id": 26213581, "lat": 40.4159092, "lon": -3.7111628 },
+    { "type": "node", "id": 26213582, "lat": 40.4157905, "lon": -3.7111288 },
+    { "type": "node", "id": 26213583, "lat": 40.4157442, "lon": -3.7116843 },
+    { "type": "node", "id": 26213584, "lat": 40.4157429, "lon": -3.712064 },
+    { "type": "node", "id": 26213585, "lat": 40.4159806, "lon": -3.7120434 },
+    { "type": "node", "id": 26213586, "lat": 40.4159906, "lon": -3.7125813 },
+    { "type": "node", "id": 26213587, "lat": 40.4155907, "lon": -3.712515 },
+    { "type": "node", "id": 26213588, "lat": 40.4165486, "lon": -3.7119369 },
+    { "type": "node", "id": 26213589, "lat": 40.416833, "lon": -3.7118956 },
+    { "type": "node", "id": 26213590, "lat": 40.4164031, "lon": -3.7113796 },
+    { "type": "node", "id": 26213592, "lat": 40.4165523, "lon": -3.7124364 },
+    { "type": "node", "id": 26213593, "lat": 40.4163695, "lon": -3.7127139 },
+    {
+      "type": "node",
+      "id": 26213594,
+      "lat": 40.4166348,
+      "lon": -3.7129609,
+      "tags": { "created_by": "JOSM" }
+    },
+    { "type": "node", "id": 26213595, "lat": 40.4168607, "lon": -3.7128809 },
+    { "type": "node", "id": 26213596, "lat": 40.4171533, "lon": -3.7127907 },
+    { "type": "node", "id": 26213598, "lat": 40.4149522, "lon": -3.7105288 },
+    { "type": "node", "id": 26213601, "lat": 40.4153273, "lon": -3.7102004 },
+    { "type": "node", "id": 26213602, "lat": 40.4153442, "lon": -3.7099067 },
+    { "type": "node", "id": 26213603, "lat": 40.4150816, "lon": -3.7097572 },
+    { "type": "node", "id": 26213604, "lat": 40.4148641, "lon": -3.7097385 },
+    { "type": "node", "id": 26213605, "lat": 40.4147452, "lon": -3.7097864 },
+    { "type": "node", "id": 26213606, "lat": 40.4149388, "lon": -3.7092651 },
+    { "type": "node", "id": 26213607, "lat": 40.4147688, "lon": -3.7092162 },
+    { "type": "node", "id": 26342799, "lat": 40.4180554, "lon": -3.7112338 },
+    { "type": "node", "id": 26342801, "lat": 40.4184857, "lon": -3.7111736 },
+    { "type": "node", "id": 26342805, "lat": 40.4186531, "lon": -3.7116881 },
+    { "type": "node", "id": 26342806, "lat": 40.4184326, "lon": -3.7115877 },
+    { "type": "node", "id": 26342807, "lat": 40.418156, "lon": -3.7116167 },
+    { "type": "node", "id": 26342808, "lat": 40.4179675, "lon": -3.7117653 },
+    { "type": "node", "id": 26342811, "lat": 40.4177712, "lon": -3.7117851 },
+    { "type": "node", "id": 26342812, "lat": 40.4188617, "lon": -3.711667 },
+    { "type": "node", "id": 26444973, "lat": 40.4151741, "lon": -3.712503 },
+    { "type": "node", "id": 27717686, "lat": 40.4162531, "lon": -3.7081352 },
+    { "type": "node", "id": 48752939, "lat": 40.4147423, "lon": -3.7064412 },
+    { "type": "node", "id": 48752949, "lat": 40.414334, "lon": -3.7071001 },
+    {
+      "type": "node",
+      "id": 48752953,
+      "lat": 40.415752,
+      "lon": -3.7095246,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    { "type": "node", "id": 48752955, "lat": 40.4154197, "lon": -3.7094049 },
+    { "type": "node", "id": 48752959, "lat": 40.41532, "lon": -3.7085033 },
+    { "type": "node", "id": 48752960, "lat": 40.4147084, "lon": -3.7081515 },
+    { "type": "node", "id": 48752963, "lat": 40.4148249, "lon": -3.7080259 },
+    { "type": "node", "id": 178820863, "lat": 40.4151146, "lon": -3.712932 },
+    { "type": "node", "id": 178821153, "lat": 40.4168121, "lon": -3.7067922 },
+    {
+      "type": "node",
+      "id": 265983579,
+      "lat": 40.4180876,
+      "lon": -3.7093593,
+      "tags": {
+        "name": "Arenal",
+        "railway": "subway_entrance",
+        "wheelchair": "no",
+        "wheelchair:description": "Steps down to ticket hall. Lift access nearby."
+      }
+    },
+    { "type": "node", "id": 318917897, "lat": 40.4144107, "lon": -3.7132247 },
+    { "type": "node", "id": 318918222, "lat": 40.4144502, "lon": -3.7129156 },
+    {
+      "type": "node",
+      "id": 333218855,
+      "lat": 40.4180831,
+      "lon": -3.706645,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "smoothness": "excellent",
+        "tactile_paving": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 333218857,
+      "lat": 40.4181778,
+      "lon": -3.7066739,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "smoothness": "excellent",
+        "wheelchair": "yes"
+      }
+    },
+    { "type": "node", "id": 333219053, "lat": 40.4182974, "lon": -3.7065698 },
+    { "type": "node", "id": 333219460, "lat": 40.4182951, "lon": -3.7071703 },
+    { "type": "node", "id": 333219510, "lat": 40.4185705, "lon": -3.7069761 },
+    { "type": "node", "id": 333219513, "lat": 40.4184496, "lon": -3.706947 },
+    { "type": "node", "id": 333219515, "lat": 40.4184278, "lon": -3.7069791 },
+    { "type": "node", "id": 333219518, "lat": 40.4183446, "lon": -3.7071225 },
+    { "type": "node", "id": 344926746, "lat": 40.4182374, "lon": -3.7073005 },
+    { "type": "node", "id": 345198357, "lat": 40.4194888, "lon": -3.7115241 },
+    { "type": "node", "id": 345198366, "lat": 40.4189414, "lon": -3.7115703 },
+    { "type": "node", "id": 345198376, "lat": 40.4187453, "lon": -3.7115549 },
+    { "type": "node", "id": 345198384, "lat": 40.4186567, "lon": -3.7115622 },
+    {
+      "type": "node",
+      "id": 345198395,
+      "lat": 40.418527,
+      "lon": -3.7114839,
+      "tags": { "amenity": "parking_entrance", "parking": "underground" }
+    },
+    { "type": "node", "id": 345198507, "lat": 40.4181728, "lon": -3.7082652 },
+    { "type": "node", "id": 345198519, "lat": 40.418256, "lon": -3.7085308 },
+    {
+      "type": "node",
+      "id": 345198554,
+      "lat": 40.4181408,
+      "lon": -3.7063436,
+      "tags": { "amenity": "parking_entrance", "parking": "underground" }
+    },
+    { "type": "node", "id": 345198587, "lat": 40.4181587, "lon": -3.7061455 },
+    { "type": "node", "id": 345198588, "lat": 40.4185285, "lon": -3.7069751 },
+    { "type": "node", "id": 345198597, "lat": 40.4184811, "lon": -3.707011 },
+    {
+      "type": "node",
+      "id": 345198606,
+      "lat": 40.4183703,
+      "lon": -3.7071751,
+      "tags": { "amenity": "parking_entrance", "parking": "underground" }
+    },
+    { "type": "node", "id": 345198616, "lat": 40.4181685, "lon": -3.706332 },
+    {
+      "type": "node",
+      "id": 345198636,
+      "lat": 40.4177948,
+      "lon": -3.7069713,
+      "tags": { "barrier": "gate", "bicycle": "no", "foot": "no" }
+    },
+    {
+      "type": "node",
+      "id": 345198640,
+      "lat": 40.4179625,
+      "lon": -3.7073663,
+      "tags": { "barrier": "gate", "bicycle": "no", "foot": "no" }
+    },
+    {
+      "type": "node",
+      "id": 345198647,
+      "lat": 40.4180236,
+      "lon": -3.7067479,
+      "tags": { "amenity": "parking_entrance", "parking": "underground" }
+    },
+    { "type": "node", "id": 345198655, "lat": 40.4167888, "lon": -3.7068699 },
+    { "type": "node", "id": 345198673, "lat": 40.4167666, "lon": -3.7069519 },
+    { "type": "node", "id": 345198687, "lat": 40.4163195, "lon": -3.7087332 },
+    {
+      "type": "node",
+      "id": 345198698,
+      "lat": 40.4159636,
+      "lon": -3.7086772,
+      "tags": { "source": "yahoo_maps" }
+    },
+    { "type": "node", "id": 345198713, "lat": 40.4161782, "lon": -3.7095531 },
+    { "type": "node", "id": 345198728, "lat": 40.417282, "lon": -3.7113943 },
+    { "type": "node", "id": 345198741, "lat": 40.4176735, "lon": -3.711785 },
+    { "type": "node", "id": 345198752, "lat": 40.4178444, "lon": -3.7116557 },
+    { "type": "node", "id": 345198759, "lat": 40.4179506, "lon": -3.7116373 },
+    {
+      "type": "node",
+      "id": 345198765,
+      "lat": 40.4180636,
+      "lon": -3.711535,
+      "tags": { "amenity": "parking_entrance", "parking": "underground" }
+    },
+    {
+      "type": "node",
+      "id": 345198781,
+      "lat": 40.4184039,
+      "lon": -3.7113577,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "underground",
+        "wheelchair": "limited"
+      }
+    },
+    { "type": "node", "id": 345198788, "lat": 40.4182003, "lon": -3.7113752 },
+    { "type": "node", "id": 345198796, "lat": 40.4170936, "lon": -3.7113466 },
+    {
+      "type": "node",
+      "id": 345198797,
+      "lat": 40.4171089,
+      "lon": -3.7112662,
+      "tags": { "barrier": "bollard" }
+    },
+    { "type": "node", "id": 345198800, "lat": 40.4166649, "lon": -3.7119209 },
+    {
+      "type": "node",
+      "id": 345198801,
+      "lat": 40.4165061,
+      "lon": -3.7119979,
+      "tags": { "barrier": "gate", "bicycle": "no", "foot": "no" }
+    },
+    { "type": "node", "id": 345198804, "lat": 40.4159448, "lon": -3.7116134 },
+    { "type": "node", "id": 345198807, "lat": 40.4160553, "lon": -3.7116041 },
+    { "type": "node", "id": 345198810, "lat": 40.4157595, "lon": -3.71223 },
+    { "type": "node", "id": 345198811, "lat": 40.4157829, "lon": -3.7120621 },
+    { "type": "node", "id": 345198850, "lat": 40.4157934, "lon": -3.7117026 },
+    { "type": "node", "id": 345198857, "lat": 40.4157442, "lon": -3.7117016 },
+    { "type": "node", "id": 345198864, "lat": 40.4157073, "lon": -3.7117151 },
+    { "type": "node", "id": 345198871, "lat": 40.4156215, "lon": -3.7120871 },
+    { "type": "node", "id": 345198878, "lat": 40.4156696, "lon": -3.7122097 },
+    { "type": "node", "id": 345198883, "lat": 40.4166836, "lon": -3.7111179 },
+    { "type": "node", "id": 345198890, "lat": 40.4168236, "lon": -3.7113156 },
+    { "type": "node", "id": 345198903, "lat": 40.4165395, "lon": -3.7106447 },
+    { "type": "node", "id": 345198916, "lat": 40.4166668, "lon": -3.7106303 },
+    { "type": "node", "id": 345198922, "lat": 40.4167623, "lon": -3.7107957 },
+    { "type": "node", "id": 345531810, "lat": 40.4141553, "lon": -3.7098313 },
+    { "type": "node", "id": 345531837, "lat": 40.4145279, "lon": -3.7094215 },
+    { "type": "node", "id": 345531992, "lat": 40.4149202, "lon": -3.710743 },
+    { "type": "node", "id": 345532024, "lat": 40.4149469, "lon": -3.7111284 },
+    { "type": "node", "id": 345532038, "lat": 40.4147409, "lon": -3.7115791 },
+    { "type": "node", "id": 347279114, "lat": 40.4142558, "lon": -3.7111822 },
+    { "type": "node", "id": 347279454, "lat": 40.414173, "lon": -3.7112889 },
+    { "type": "node", "id": 347279781, "lat": 40.413882, "lon": -3.7111669 },
+    { "type": "node", "id": 347279978, "lat": 40.4140629, "lon": -3.7112744 },
+    { "type": "node", "id": 347280557, "lat": 40.4146637, "lon": -3.7107739 },
+    { "type": "node", "id": 347280795, "lat": 40.4148216, "lon": -3.7109708 },
+    { "type": "node", "id": 347280796, "lat": 40.4144807, "lon": -3.7108881 },
+    {
+      "type": "node",
+      "id": 347280797,
+      "lat": 40.414601,
+      "lon": -3.710864,
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "parking": "underground"
+      }
+    },
+    { "type": "node", "id": 347280798, "lat": 40.4146007, "lon": -3.7111877 },
+    { "type": "node", "id": 347280801, "lat": 40.4147473, "lon": -3.711133 },
+    {
+      "type": "node",
+      "id": 347281687,
+      "lat": 40.4141664,
+      "lon": -3.709547,
+      "tags": { "barrier": "gate" }
+    },
+    { "type": "node", "id": 347602936, "lat": 40.4159316, "lon": -3.7068919 },
+    {
+      "type": "node",
+      "id": 347603099,
+      "lat": 40.4151678,
+      "lon": -3.7072429,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Parking Plaza Mayor",
+        "parking": "underground"
+      }
+    },
+    { "type": "node", "id": 351124060, "lat": 40.4171597, "lon": -3.7128878 },
+    { "type": "node", "id": 510827492, "lat": 40.4147142, "lon": -3.7052021 },
+    { "type": "node", "id": 510827494, "lat": 40.4148715, "lon": -3.705724 },
+    { "type": "node", "id": 510827495, "lat": 40.4150114, "lon": -3.706208 },
+    { "type": "node", "id": 510827497, "lat": 40.4151302, "lon": -3.7068937 },
+    { "type": "node", "id": 510827499, "lat": 40.4151114, "lon": -3.707181 },
+    { "type": "node", "id": 510827501, "lat": 40.4151066, "lon": -3.7072982 },
+    { "type": "node", "id": 510827503, "lat": 40.4151195, "lon": -3.707502 },
+    { "type": "node", "id": 510827506, "lat": 40.4151658, "lon": -3.7076044 },
+    { "type": "node", "id": 510827508, "lat": 40.4154622, "lon": -3.7078387 },
+    { "type": "node", "id": 510827512, "lat": 40.4151325, "lon": -3.7072433 },
+    { "type": "node", "id": 510827515, "lat": 40.4156582, "lon": -3.7068808 },
+    { "type": "node", "id": 510827526, "lat": 40.415781, "lon": -3.7079362 },
+    { "type": "node", "id": 510827529, "lat": 40.4160665, "lon": -3.7079813 },
+    { "type": "node", "id": 510827531, "lat": 40.4161803, "lon": -3.7080316 },
+    {
+      "type": "node",
+      "id": 551573440,
+      "lat": 40.4182133,
+      "lon": -3.7066603,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Parking Plaza de las Descalzas",
+        "parking": "underground"
+      }
+    },
+    { "type": "node", "id": 551573493, "lat": 40.4183229, "lon": -3.7072455 },
+    { "type": "node", "id": 551573502, "lat": 40.4182834, "lon": -3.7072674 },
+    { "type": "node", "id": 730702112, "lat": 40.4142268, "lon": -3.710161 },
+    { "type": "node", "id": 851942131, "lat": 40.4149259, "lon": -3.7076317 },
+    { "type": "node", "id": 927878106, "lat": 40.4171166, "lon": -3.712232 },
+    {
+      "type": "node",
+      "id": 927878112,
+      "lat": 40.4143444,
+      "lon": -3.7103641,
+      "tags": { "barrier": "yes" }
+    },
+    {
+      "type": "node",
+      "id": 927878127,
+      "lat": 40.4146786,
+      "lon": -3.7112276,
+      "tags": { "barrier": "bollard" }
+    },
+    { "type": "node", "id": 927878140, "lat": 40.417159, "lon": -3.7121029 },
+    {
+      "type": "node",
+      "id": 927878141,
+      "lat": 40.4144755,
+      "lon": -3.7127298,
+      "tags": { "barrier": "gate" }
+    },
+    {
+      "type": "node",
+      "id": 927878146,
+      "lat": 40.4147885,
+      "lon": -3.7115633,
+      "tags": { "barrier": "bollard" }
+    },
+    { "type": "node", "id": 927878157, "lat": 40.4141972, "lon": -3.7098291 },
+    { "type": "node", "id": 1179021897, "lat": 40.4157831, "lon": -3.7120904 },
+    { "type": "node", "id": 1179021978, "lat": 40.4147656, "lon": -3.7111924 },
+    {
+      "type": "node",
+      "id": 1179022053,
+      "lat": 40.4150581,
+      "lon": -3.7133738,
+      "tags": {
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "traffic_signals"
+      }
+    },
+    { "type": "node", "id": 1179022083, "lat": 40.4156197, "lon": -3.7120604 },
+    { "type": "node", "id": 1179022124, "lat": 40.4171516, "lon": -3.7119277 },
+    { "type": "node", "id": 1179022156, "lat": 40.4157015, "lon": -3.7120383 },
+    { "type": "node", "id": 1179022241, "lat": 40.4149325, "lon": -3.7121896 },
+    { "type": "node", "id": 1179022343, "lat": 40.4165722, "lon": -3.7110315 },
+    { "type": "node", "id": 1179022482, "lat": 40.4157635, "lon": -3.7120922 },
+    { "type": "node", "id": 1179022681, "lat": 40.4159679, "lon": -3.7118895 },
+    { "type": "node", "id": 1179022726, "lat": 40.4157855, "lon": -3.7119457 },
+    {
+      "type": "node",
+      "id": 1200524877,
+      "lat": 40.4182947,
+      "lon": -3.7066312,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "smoothness": "excellent",
+        "wheelchair": "yes"
+      }
+    },
+    { "type": "node", "id": 1200524897, "lat": 40.4185905, "lon": -3.7070044 },
+    { "type": "node", "id": 1235011864, "lat": 40.4149407, "lon": -3.7106717 },
+    { "type": "node", "id": 1235011911, "lat": 40.4143797, "lon": -3.7095228 },
+    { "type": "node", "id": 1235011918, "lat": 40.4144086, "lon": -3.7094248 },
+    { "type": "node", "id": 1235011993, "lat": 40.414949, "lon": -3.710615 },
+    { "type": "node", "id": 1235055742, "lat": 40.4154416, "lon": -3.7093484 },
+    { "type": "node", "id": 1235055751, "lat": 40.4152099, "lon": -3.7114219 },
+    { "type": "node", "id": 1235055758, "lat": 40.4165641, "lon": -3.7084185 },
+    { "type": "node", "id": 1235055760, "lat": 40.4154696, "lon": -3.70922 },
+    { "type": "node", "id": 1235055767, "lat": 40.4149567, "lon": -3.7076507 },
+    {
+      "type": "node",
+      "id": 1235055771,
+      "lat": 40.4157809,
+      "lon": -3.7094123,
+      "tags": { "source": "yahoo_maps" }
+    },
+    { "type": "node", "id": 1235055781, "lat": 40.4164725, "lon": -3.7098214 },
+    { "type": "node", "id": 1235055787, "lat": 40.4150088, "lon": -3.7067264 },
+    { "type": "node", "id": 1235055793, "lat": 40.4158058, "lon": -3.7079548 },
+    { "type": "node", "id": 1235055799, "lat": 40.4155414, "lon": -3.7088959 },
+    { "type": "node", "id": 1235055801, "lat": 40.4166571, "lon": -3.7110672 },
+    { "type": "node", "id": 1235055803, "lat": 40.4165047, "lon": -3.7092554 },
+    { "type": "node", "id": 1235055804, "lat": 40.4173364, "lon": -3.7099379 },
+    { "type": "node", "id": 1235055815, "lat": 40.4167414, "lon": -3.7086317 },
+    { "type": "node", "id": 1255433812, "lat": 40.4184975, "lon": -3.7089564 },
+    { "type": "node", "id": 1255433815, "lat": 40.4185063, "lon": -3.7091266 },
+    { "type": "node", "id": 1255433820, "lat": 40.417901, "lon": -3.70992 },
+    {
+      "type": "node",
+      "id": 1255433822,
+      "lat": 40.4184824,
+      "lon": -3.7098669,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1258876329,
+      "lat": 40.4164912,
+      "lon": -3.7051864,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1258876331,
+      "lat": 40.4151482,
+      "lon": -3.7122411,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 1258876332,
+      "lat": 40.4159182,
+      "lon": -3.7088598,
+      "tags": { "source": "yahoo_maps" }
+    },
+    { "type": "node", "id": 1258876333, "lat": 40.4163341, "lon": -3.7070298 },
+    {
+      "type": "node",
+      "id": 1258876334,
+      "lat": 40.41624,
+      "lon": -3.7071817,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 1258876338,
+      "lat": 40.4160093,
+      "lon": -3.7084938,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 1258876345,
+      "lat": 40.4161753,
+      "lon": -3.7076962,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 1258876347,
+      "lat": 40.4162612,
+      "lon": -3.7070137,
+      "tags": { "source": "yahoo_maps" }
+    },
+    {
+      "type": "node",
+      "id": 1258876348,
+      "lat": 40.4152299,
+      "lon": -3.7121153,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    { "type": "node", "id": 1316127214, "lat": 40.4160998, "lon": -3.7076749 },
+    { "type": "node", "id": 1316127385, "lat": 40.4157715, "lon": -3.7076264 },
+    { "type": "node", "id": 1316127468, "lat": 40.4159687, "lon": -3.7076457 },
+    { "type": "node", "id": 1316127619, "lat": 40.4158784, "lon": -3.7076354 },
+    { "type": "node", "id": 1365680107, "lat": 40.4177905, "lon": -3.7093899 },
+    { "type": "node", "id": 1365680109, "lat": 40.4177957, "lon": -3.7094759 },
+    {
+      "type": "node",
+      "id": 1365680122,
+      "lat": 40.4177935,
+      "lon": -3.7094348,
+      "tags": { "highway": "crossing" }
+    },
+    { "type": "node", "id": 1365680123, "lat": 40.4182807, "lon": -3.709136 },
+    { "type": "node", "id": 1365680124, "lat": 40.4183622, "lon": -3.7090562 },
+    { "type": "node", "id": 1365680128, "lat": 40.4184173, "lon": -3.7096423 },
+    { "type": "node", "id": 1365680129, "lat": 40.4183956, "lon": -3.7090673 },
+    { "type": "node", "id": 1365680130, "lat": 40.4184206, "lon": -3.7092382 },
+    { "type": "node", "id": 1365680131, "lat": 40.4184326, "lon": -3.7091206 },
+    { "type": "node", "id": 1365680132, "lat": 40.4184512, "lon": -3.7091764 },
+    { "type": "node", "id": 1501435703, "lat": 40.4143907, "lon": -3.712578 },
+    { "type": "node", "id": 1501435750, "lat": 40.4145267, "lon": -3.7124193 },
+    { "type": "node", "id": 1501435785, "lat": 40.4148111, "lon": -3.7103081 },
+    { "type": "node", "id": 1501435787, "lat": 40.4148449, "lon": -3.711108 },
+    { "type": "node", "id": 1501435798, "lat": 40.4149383, "lon": -3.709739 },
+    { "type": "node", "id": 1501435800, "lat": 40.4149925, "lon": -3.7125301 },
+    { "type": "node", "id": 1501435803, "lat": 40.4149664, "lon": -3.7124095 },
+    { "type": "node", "id": 1501435832, "lat": 40.4150549, "lon": -3.7125437 },
+    { "type": "node", "id": 1522690014, "lat": 40.4178932, "lon": -3.7068389 },
+    { "type": "node", "id": 1522690018, "lat": 40.4181285, "lon": -3.7066256 },
+    { "type": "node", "id": 1522690024, "lat": 40.4181768, "lon": -3.7072825 },
+    { "type": "node", "id": 1522690027, "lat": 40.4181956, "lon": -3.706723 },
+    { "type": "node", "id": 1522690029, "lat": 40.4182207, "lon": -3.7068411 },
+    {
+      "type": "node",
+      "id": 1522690031,
+      "lat": 40.4182405,
+      "lon": -3.7069399,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    { "type": "node", "id": 1522690032, "lat": 40.418275, "lon": -3.7066921 },
+    { "type": "node", "id": 1522690036, "lat": 40.4184816, "lon": -3.706927 },
+    { "type": "node", "id": 1522690037, "lat": 40.4185204, "lon": -3.7069348 },
+    { "type": "node", "id": 1636940728, "lat": 40.4180635, "lon": -3.7066571 },
+    { "type": "node", "id": 1636940730, "lat": 40.4181555, "lon": -3.7066487 },
+    { "type": "node", "id": 1640604354, "lat": 40.4177676, "lon": -3.7117081 },
+    { "type": "node", "id": 1640604356, "lat": 40.41779, "lon": -3.7121063 },
+    { "type": "node", "id": 1640604359, "lat": 40.4178074, "lon": -3.7124046 },
+    { "type": "node", "id": 1640604369, "lat": 40.4178356, "lon": -3.7128876 },
+    { "type": "node", "id": 1640604378, "lat": 40.417857, "lon": -3.7132523 },
+    { "type": "node", "id": 1640604414, "lat": 40.4179863, "lon": -3.7120866 },
+    { "type": "node", "id": 1640604416, "lat": 40.4180037, "lon": -3.7123848 },
+    { "type": "node", "id": 1640604419, "lat": 40.4180319, "lon": -3.7128675 },
+    { "type": "node", "id": 1640604435, "lat": 40.4182277, "lon": -3.7120622 },
+    { "type": "node", "id": 1640604437, "lat": 40.4182479, "lon": -3.7123602 },
+    { "type": "node", "id": 1640604439, "lat": 40.4182376, "lon": -3.711924 },
+    { "type": "node", "id": 1640604441, "lat": 40.4182783, "lon": -3.7128424 },
+    { "type": "node", "id": 1640604445, "lat": 40.4183182, "lon": -3.7119993 },
+    { "type": "node", "id": 1640604449, "lat": 40.4183432, "lon": -3.7124033 },
+    { "type": "node", "id": 1640604453, "lat": 40.4183884, "lon": -3.7119119 },
+    { "type": "node", "id": 1640604456, "lat": 40.4184145, "lon": -3.7120391 },
+    { "type": "node", "id": 1640604460, "lat": 40.4184337, "lon": -3.7123294 },
+    { "type": "node", "id": 1640604462, "lat": 40.4184637, "lon": -3.7128234 },
+    { "type": "node", "id": 1640604465, "lat": 40.4186721, "lon": -3.7120131 },
+    { "type": "node", "id": 1640604467, "lat": 40.4186891, "lon": -3.7123036 },
+    { "type": "node", "id": 1640604468, "lat": 40.418718, "lon": -3.7127975 },
+    { "type": "node", "id": 1640604494, "lat": 40.4188807, "lon": -3.7119921 },
+    { "type": "node", "id": 1640604497, "lat": 40.4188977, "lon": -3.7122826 },
+    { "type": "node", "id": 1640604499, "lat": 40.4189265, "lon": -3.7127762 },
+    { "type": "node", "id": 1640604505, "lat": 40.4189472, "lon": -3.7131302 },
+    { "type": "node", "id": 1652767894, "lat": 40.4194289, "lon": -3.7111829 },
+    { "type": "node", "id": 1789051704, "lat": 40.4162687, "lon": -3.7078461 },
+    { "type": "node", "id": 1789638257, "lat": 40.4178954, "lon": -3.7098189 },
+    { "type": "node", "id": 1789638264, "lat": 40.4183501, "lon": -3.7093712 },
+    { "type": "node", "id": 1789638266, "lat": 40.4183687, "lon": -3.7128331 },
+    {
+      "type": "node",
+      "id": 1789638267,
+      "lat": 40.4183998,
+      "lon": -3.7093547,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    { "type": "node", "id": 1789638268, "lat": 40.4183901, "lon": -3.7131947 },
+    { "type": "node", "id": 1789638273, "lat": 40.4188475, "lon": -3.7115823 },
+    {
+      "type": "node",
+      "id": 1796743677,
+      "lat": 40.4146448,
+      "lon": -3.7075498,
+      "tags": { "source": "yahoo_maps" }
+    },
+    { "type": "node", "id": 1796743678, "lat": 40.4151376, "lon": -3.7078478 },
+    {
+      "type": "node",
+      "id": 1796759112,
+      "lat": 40.4143162,
+      "lon": -3.7074525,
+      "tags": { "highway": "crossing" }
+    },
+    { "type": "node", "id": 2005647993, "lat": 40.4145984, "lon": -3.7075649 },
+    { "type": "node", "id": 2005647994, "lat": 40.415278, "lon": -3.7084244 },
+    { "type": "node", "id": 2005648779, "lat": 40.4143511, "lon": -3.7110022 },
+    { "type": "node", "id": 2017305754, "lat": 40.4183143, "lon": -3.7090817 },
+    { "type": "node", "id": 2017305756, "lat": 40.4183474, "lon": -3.7093271 },
+    {
+      "type": "node",
+      "id": 2017305765,
+      "lat": 40.4170865,
+      "lon": -3.7117459,
+      "tags": {
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    { "type": "node", "id": 2017305768, "lat": 40.4182797, "lon": -3.7092043 },
+    { "type": "node", "id": 2446976641, "lat": 40.41487, "lon": -3.7067427 },
+    { "type": "node", "id": 2506478084, "lat": 40.4162851, "lon": -3.7070187 },
+    { "type": "node", "id": 2506478087, "lat": 40.4161509, "lon": -3.7080287 },
+    { "type": "node", "id": 2506478090, "lat": 40.4158293, "lon": -3.7094302 },
+    { "type": "node", "id": 2540726834, "lat": 40.4154011, "lon": -3.7086595 },
+    {
+      "type": "node",
+      "id": 2540726835,
+      "lat": 40.4158654,
+      "lon": -3.7094469,
+      "tags": { "crossing": "traffic_signals", "highway": "crossing" }
+    },
+    { "type": "node", "id": 2540742067, "lat": 40.4157842, "lon": -3.7120252 },
+    { "type": "node", "id": 2540742068, "lat": 40.4157895, "lon": -3.7118307 },
+    { "type": "node", "id": 2600764328, "lat": 40.4163369, "lon": -3.7086118 },
+    { "type": "node", "id": 2600764330, "lat": 40.4163453, "lon": -3.7085603 },
+    { "type": "node", "id": 2600764336, "lat": 40.4163615, "lon": -3.7084733 },
+    { "type": "node", "id": 2622900857, "lat": 40.4160003, "lon": -3.7086816 },
+    { "type": "node", "id": 2622900858, "lat": 40.4161707, "lon": -3.7079064 },
+    {
+      "type": "node",
+      "id": 2701867119,
+      "lat": 40.4152296,
+      "lon": -3.7125046,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    { "type": "node", "id": 2701867120, "lat": 40.4152739, "lon": -3.7121964 },
+    { "type": "node", "id": 2701867121, "lat": 40.4154608, "lon": -3.711034 },
+    { "type": "node", "id": 2701867122, "lat": 40.4155542, "lon": -3.710495 },
+    { "type": "node", "id": 2701918433, "lat": 40.4148238, "lon": -3.7082244 },
+    {
+      "type": "node",
+      "id": 2701918435,
+      "lat": 40.415778,
+      "lon": -3.7088206,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    { "type": "node", "id": 2835449216, "lat": 40.4186099, "lon": -3.7070371 },
+    {
+      "type": "node",
+      "id": 3208363773,
+      "lat": 40.4194145,
+      "lon": -3.7111682,
+      "tags": { "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 3246224684,
+      "lat": 40.4171737,
+      "lon": -3.7131012,
+      "tags": { "crossing": "zebra", "highway": "crossing" }
+    },
+    { "type": "node", "id": 3257183375, "lat": 40.416392, "lon": -3.7086796 },
+    { "type": "node", "id": 3257183384, "lat": 40.4165107, "lon": -3.7086979 },
+    { "type": "node", "id": 3257183401, "lat": 40.416781, "lon": -3.7085718 },
+    { "type": "node", "id": 3257183404, "lat": 40.4168, "lon": -3.7086729 },
+    {
+      "type": "node",
+      "id": 3257245142,
+      "lat": 40.4181249,
+      "lon": -3.709254,
+      "tags": { "railway": "subway_entrance", "wheelchair": "yes" }
+    },
+    {
+      "type": "node",
+      "id": 3257245143,
+      "lat": 40.4182056,
+      "lon": -3.7093434,
+      "tags": {
+        "name": "Campomanes",
+        "railway": "subway_entrance",
+        "wheelchair": "no",
+        "wheelchair:description": "Lift to ticket hall from street is close to stairs."
+      }
+    },
+    { "type": "node", "id": 3257245144, "lat": 40.4164005, "lon": -3.7112664 },
+    { "type": "node", "id": 3257245155, "lat": 40.418278, "lon": -3.7091688 },
+    { "type": "node", "id": 3257245156, "lat": 40.4182939, "lon": -3.7091072 },
+    { "type": "node", "id": 3257245157, "lat": 40.4182954, "lon": -3.7092347 },
+    { "type": "node", "id": 3257245158, "lat": 40.4183382, "lon": -3.7090608 },
+    { "type": "node", "id": 3257245159, "lat": 40.4183408, "lon": -3.7092977 },
+    { "type": "node", "id": 3257245160, "lat": 40.4183689, "lon": -3.7096691 },
+    { "type": "node", "id": 3257246061, "lat": 40.4184178, "lon": -3.7090857 },
+    { "type": "node", "id": 3257430275, "lat": 40.4165086, "lon": -3.7084118 },
+    { "type": "node", "id": 3257430281, "lat": 40.416566, "lon": -3.7086989 },
+    { "type": "node", "id": 3257430289, "lat": 40.416606, "lon": -3.7087054 },
+    { "type": "node", "id": 3257430303, "lat": 40.4166676, "lon": -3.7087164 },
+    { "type": "node", "id": 3257430309, "lat": 40.4166904, "lon": -3.7084339 },
+    { "type": "node", "id": 3257430311, "lat": 40.4167274, "lon": -3.7084384 },
+    { "type": "node", "id": 3275673384, "lat": 40.4180245, "lon": -3.7093631 },
+    { "type": "node", "id": 3275673386, "lat": 40.4182707, "lon": -3.709337 },
+    { "type": "node", "id": 3275673387, "lat": 40.4186865, "lon": -3.7102844 },
+    { "type": "node", "id": 3276908428, "lat": 40.4183492, "lon": -3.7093561 },
+    {
+      "type": "node",
+      "id": 3323223808,
+      "lat": 40.418247,
+      "lon": -3.7067371,
+      "tags": { "highway": "give_way" }
+    },
+    {
+      "type": "node",
+      "id": 3323223809,
+      "lat": 40.4183172,
+      "lon": -3.7071497,
+      "tags": { "highway": "give_way" }
+    },
+    { "type": "node", "id": 3323271328, "lat": 40.4146567, "lon": -3.7069581 },
+    { "type": "node", "id": 3414972216, "lat": 40.417198, "lon": -3.7066593 },
+    { "type": "node", "id": 3414972217, "lat": 40.4173346, "lon": -3.7050769 },
+    { "type": "node", "id": 3414972218, "lat": 40.4173403, "lon": -3.7071859 },
+    { "type": "node", "id": 3414972220, "lat": 40.4173648, "lon": -3.705228 },
+    { "type": "node", "id": 3414972221, "lat": 40.4173757, "lon": -3.705319 },
+    { "type": "node", "id": 3414972222, "lat": 40.417383, "lon": -3.7053241 },
+    { "type": "node", "id": 3414972223, "lat": 40.4173916, "lon": -3.7053235 },
+    { "type": "node", "id": 3414972225, "lat": 40.4174573, "lon": -3.7071212 },
+    { "type": "node", "id": 3414972228, "lat": 40.4175201, "lon": -3.7078124 },
+    { "type": "node", "id": 3414972229, "lat": 40.417573, "lon": -3.7052442 },
+    { "type": "node", "id": 3414972230, "lat": 40.4175875, "lon": -3.7052448 },
+    { "type": "node", "id": 3414972231, "lat": 40.4176043, "lon": -3.7052621 },
+    { "type": "node", "id": 3414972232, "lat": 40.4176272, "lon": -3.7077179 },
+    { "type": "node", "id": 3414972234, "lat": 40.4177058, "lon": -3.70556 },
+    { "type": "node", "id": 3414972236, "lat": 40.4177438, "lon": -3.7055447 },
+    { "type": "node", "id": 3414972238, "lat": 40.4177294, "lon": -3.7085853 },
+    { "type": "node", "id": 3414972240, "lat": 40.4177617, "lon": -3.7055728 },
+    { "type": "node", "id": 3414972241, "lat": 40.4177781, "lon": -3.7055856 },
+    { "type": "node", "id": 3414972243, "lat": 40.4178316, "lon": -3.7084733 },
+    { "type": "node", "id": 3414972245, "lat": 40.4178977, "lon": -3.7087381 },
+    { "type": "node", "id": 3414972248, "lat": 40.4179652, "lon": -3.7054775 },
+    { "type": "node", "id": 3414972249, "lat": 40.4179755, "lon": -3.7054801 },
+    { "type": "node", "id": 3414972251, "lat": 40.4180191, "lon": -3.705597 },
+    { "type": "node", "id": 3414972252, "lat": 40.4181118, "lon": -3.7058843 },
+    { "type": "node", "id": 3448827661, "lat": 40.41712, "lon": -3.7118637 },
+    { "type": "node", "id": 3448827663, "lat": 40.4171588, "lon": -3.7132587 },
+    { "type": "node", "id": 3448860322, "lat": 40.4178397, "lon": -3.7115737 },
+    { "type": "node", "id": 3448860328, "lat": 40.4179141, "lon": -3.7114862 },
+    { "type": "node", "id": 3448860332, "lat": 40.417986, "lon": -3.7114245 },
+    { "type": "node", "id": 3448860333, "lat": 40.4180263, "lon": -3.7117036 },
+    { "type": "node", "id": 3448860334, "lat": 40.4180911, "lon": -3.7116531 },
+    { "type": "node", "id": 3448860335, "lat": 40.4180855, "lon": -3.7113656 },
+    { "type": "node", "id": 3448860336, "lat": 40.418178, "lon": -3.7113336 },
+    { "type": "node", "id": 3448860337, "lat": 40.418227, "lon": -3.7115911 },
+    { "type": "node", "id": 3448860338, "lat": 40.4182903, "lon": -3.7113113 },
+    { "type": "node", "id": 3448860339, "lat": 40.4182952, "lon": -3.7115785 },
+    { "type": "node", "id": 3448860340, "lat": 40.4183641, "lon": -3.7115774 },
+    { "type": "node", "id": 3448860341, "lat": 40.4183778, "lon": -3.7113061 },
+    { "type": "node", "id": 3448860342, "lat": 40.4184672, "lon": -3.711318 },
+    { "type": "node", "id": 3448860343, "lat": 40.4185069, "lon": -3.7116124 },
+    { "type": "node", "id": 3448860344, "lat": 40.4185777, "lon": -3.7116505 },
+    { "type": "node", "id": 3448860345, "lat": 40.4185972, "lon": -3.7113713 },
+    { "type": "node", "id": 3448860347, "lat": 40.4187095, "lon": -3.7114451 },
+    { "type": "node", "id": 3502487950, "lat": 40.416901, "lon": -3.7073649 },
+    { "type": "node", "id": 3507528468, "lat": 40.4145032, "lon": -3.7080282 },
+    { "type": "node", "id": 3507528469, "lat": 40.4145545, "lon": -3.7080425 },
+    { "type": "node", "id": 3507528474, "lat": 40.4156693, "lon": -3.7081816 },
+    { "type": "node", "id": 3507528477, "lat": 40.4158563, "lon": -3.7068438 },
+    { "type": "node", "id": 3507528479, "lat": 40.416071, "lon": -3.7080019 },
+    { "type": "node", "id": 3507528481, "lat": 40.416127, "lon": -3.7076826 },
+    {
+      "type": "node",
+      "id": 3507528492,
+      "lat": 40.4162208,
+      "lon": -3.7078803,
+      "tags": { "crossing": "marked", "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 3507529697,
+      "lat": 40.4162892,
+      "lon": -3.7067907,
+      "tags": { "crossing": "marked", "highway": "crossing" }
+    },
+    { "type": "node", "id": 3507529700, "lat": 40.4163124, "lon": -3.7070249 },
+    {
+      "type": "node",
+      "id": 3507529704,
+      "lat": 40.4164023,
+      "lon": -3.7058927,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    { "type": "node", "id": 3507557297, "lat": 40.4161923, "lon": -3.708061 },
+    { "type": "node", "id": 3507557298, "lat": 40.4168206, "lon": -3.7074059 },
+    {
+      "type": "node",
+      "id": 3507562279,
+      "lat": 40.4166175,
+      "lon": -3.708425,
+      "tags": {
+        "addr:city": "Madrid",
+        "addr:country": "ES",
+        "addr:housenumber": "10",
+        "addr:postcode": "28013",
+        "addr:street": "Plaza de Herradores",
+        "entrance": "main"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3507562283,
+      "lat": 40.4164468,
+      "lon": -3.708688,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:postcode": "28013",
+        "addr:street": "Plaza de Herradores",
+        "entrance": "main"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3507562288,
+      "lat": 40.416537,
+      "lon": -3.7086984,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:postcode": "28013",
+        "addr:street": "Plaza de Herradores",
+        "entrance": "main"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3507562994,
+      "lat": 40.4165874,
+      "lon": -3.7087032,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:postcode": "28013",
+        "addr:street": "Plaza de Herradores",
+        "entrance": "main"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3507562998,
+      "lat": 40.4166214,
+      "lon": -3.7087082,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:postcode": "28013",
+        "addr:street": "Plaza de Herradores",
+        "entrance": "main"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3507563000,
+      "lat": 40.4167693,
+      "lon": -3.7087258,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:postcode": "28013",
+        "addr:street": "Plaza de Herradores",
+        "entrance": "main"
+      }
+    },
+    { "type": "node", "id": 3507563001, "lat": 40.4156325, "lon": -3.7087897 },
+    { "type": "node", "id": 3507563005, "lat": 40.4167887, "lon": -3.7086104 },
+    { "type": "node", "id": 3519909370, "lat": 40.4178997, "lon": -3.7099683 },
+    {
+      "type": "node",
+      "id": 3519909372,
+      "lat": 40.4188256,
+      "lon": -3.7102942,
+      "tags": { "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 3519909373,
+      "lat": 40.4188559,
+      "lon": -3.7104492,
+      "tags": { "highway": "crossing" }
+    },
+    {
+      "type": "node",
+      "id": 3519909374,
+      "lat": 40.419242,
+      "lon": -3.7091999,
+      "tags": { "highway": "crossing" }
+    },
+    { "type": "node", "id": 3564082113, "lat": 40.4139307, "lon": -3.7119456 },
+    { "type": "node", "id": 3579004056, "lat": 40.4177112, "lon": -3.7093802 },
+    { "type": "node", "id": 3579004058, "lat": 40.4177242, "lon": -3.7094671 },
+    { "type": "node", "id": 3614543718, "lat": 40.4144087, "lon": -3.7107154 },
+    { "type": "node", "id": 3614543737, "lat": 40.4149161, "lon": -3.7103013 },
+    { "type": "node", "id": 3639948409, "lat": 40.415794, "lon": -3.7116861 },
+    { "type": "node", "id": 3639948413, "lat": 40.4158627, "lon": -3.7116889 },
+    { "type": "node", "id": 3639948415, "lat": 40.4158807, "lon": -3.7111956 },
+    { "type": "node", "id": 3639948425, "lat": 40.41592, "lon": -3.711335 },
+    { "type": "node", "id": 3639948427, "lat": 40.415925, "lon": -3.7116019 },
+    { "type": "node", "id": 3639948428, "lat": 40.4159254, "lon": -3.7115678 },
+    { "type": "node", "id": 3639948429, "lat": 40.4159258, "lon": -3.7115198 },
+    { "type": "node", "id": 3639948430, "lat": 40.4159264, "lon": -3.7114582 },
+    { "type": "node", "id": 3639948431, "lat": 40.4159268, "lon": -3.7113599 },
+    { "type": "node", "id": 3639948432, "lat": 40.4159268, "lon": -3.7114121 },
+    { "type": "node", "id": 3639948434, "lat": 40.4159621, "lon": -3.7116184 },
+    { "type": "node", "id": 3639948439, "lat": 40.4160545, "lon": -3.7116097 },
+    { "type": "node", "id": 3639948442, "lat": 40.4160685, "lon": -3.7115074 },
+    { "type": "node", "id": 3639948450, "lat": 40.4160939, "lon": -3.7113224 },
+    { "type": "node", "id": 3643000732, "lat": 40.4156223, "lon": -3.7121081 },
+    { "type": "node", "id": 3643000750, "lat": 40.41567, "lon": -3.7120948 },
+    { "type": "node", "id": 3643000752, "lat": 40.4157043, "lon": -3.7118783 },
+    { "type": "node", "id": 3657726917, "lat": 40.4145611, "lon": -3.7123961 },
+    { "type": "node", "id": 3657726918, "lat": 40.4149476, "lon": -3.71244 },
+    { "type": "node", "id": 3835537669, "lat": 40.4139427, "lon": -3.7086267 },
+    { "type": "node", "id": 3835537670, "lat": 40.4139395, "lon": -3.7085918 },
+    { "type": "node", "id": 3835537680, "lat": 40.4142733, "lon": -3.7074492 },
+    { "type": "node", "id": 3835537683, "lat": 40.4143348, "lon": -3.7075271 },
+    { "type": "node", "id": 3835537686, "lat": 40.4143543, "lon": -3.7071466 },
+    { "type": "node", "id": 3835537687, "lat": 40.4143564, "lon": -3.7074647 },
+    { "type": "node", "id": 3835537688, "lat": 40.4143652, "lon": -3.7072122 },
+    {
+      "type": "node",
+      "id": 3835537690,
+      "lat": 40.4143728,
+      "lon": -3.7064501,
+      "tags": { "highway": "crossing" }
+    },
+    { "type": "node", "id": 3835537691, "lat": 40.4143748, "lon": -3.7071597 },
+    { "type": "node", "id": 3835537693, "lat": 40.4144126, "lon": -3.7071626 },
+    { "type": "node", "id": 3835543723, "lat": 40.4138808, "lon": -3.7081869 },
+    { "type": "node", "id": 3835543724, "lat": 40.4139787, "lon": -3.708157 },
+    { "type": "node", "id": 3835559171, "lat": 40.4145473, "lon": -3.7097988 },
+    { "type": "node", "id": 3835559172, "lat": 40.4145732, "lon": -3.7098044 },
+    { "type": "node", "id": 3835579677, "lat": 40.4141798, "lon": -3.7098307 },
+    { "type": "node", "id": 3835579682, "lat": 40.414311, "lon": -3.7103771 },
+    {
+      "type": "node",
+      "id": 3835579684,
+      "lat": 40.4143751,
+      "lon": -3.7106343,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    { "type": "node", "id": 3835579691, "lat": 40.4144523, "lon": -3.7108655 },
+    { "type": "node", "id": 3835579693, "lat": 40.4144522, "lon": -3.7108231 },
+    { "type": "node", "id": 3835579694, "lat": 40.4144636, "lon": -3.7108514 },
+    { "type": "node", "id": 3835579696, "lat": 40.4145058, "lon": -3.7108831 },
+    {
+      "type": "node",
+      "id": 3835579699,
+      "lat": 40.4146324,
+      "lon": -3.7112693,
+      "tags": { "crossing": "uncontrolled", "highway": "crossing" }
+    },
+    { "type": "node", "id": 3835579700, "lat": 40.4146326, "lon": -3.7111747 },
+    { "type": "node", "id": 3835579701, "lat": 40.4146589, "lon": -3.7112373 },
+    { "type": "node", "id": 3835579703, "lat": 40.4147574, "lon": -3.7115736 },
+    { "type": "node", "id": 3835579713, "lat": 40.4149576, "lon": -3.7122107 },
+    { "type": "node", "id": 3835579715, "lat": 40.4150411, "lon": -3.7114723 },
+    { "type": "node", "id": 3835579719, "lat": 40.4153548, "lon": -3.7113915 },
+    { "type": "node", "id": 3835579720, "lat": 40.4154254, "lon": -3.7110261 },
+    {
+      "type": "node",
+      "id": 3835579732,
+      "lat": 40.4158812,
+      "lon": -3.7090086,
+      "tags": {
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "traffic_signals:sound": "yes"
+      }
+    },
+    { "type": "node", "id": 3835589247, "lat": 40.4141187, "lon": -3.7112951 },
+    { "type": "node", "id": 3835589250, "lat": 40.4141854, "lon": -3.709972 },
+    { "type": "node", "id": 3835589251, "lat": 40.4142146, "lon": -3.7112521 },
+    { "type": "node", "id": 3835589357, "lat": 40.4145331, "lon": -3.7080925 },
+    { "type": "node", "id": 3835589361, "lat": 40.4147374, "lon": -3.7081202 },
+    { "type": "node", "id": 3838014628, "lat": 40.4182137, "lon": -3.7063487 },
+    { "type": "node", "id": 3838014629, "lat": 40.4182484, "lon": -3.7072415 },
+    { "type": "node", "id": 3838014630, "lat": 40.4182512, "lon": -3.7071675 },
+    { "type": "node", "id": 3838014631, "lat": 40.4182927, "lon": -3.7070765 },
+    { "type": "node", "id": 3838014632, "lat": 40.4182988, "lon": -3.7071413 },
+    { "type": "node", "id": 3876402607, "lat": 40.4178813, "lon": -3.709593 },
+    { "type": "node", "id": 3910891184, "lat": 40.414504, "lon": -3.7134907 },
+    { "type": "node", "id": 3910891187, "lat": 40.4145165, "lon": -3.7134833 },
+    { "type": "node", "id": 3910891191, "lat": 40.4145379, "lon": -3.7134678 },
+    { "type": "node", "id": 3910891194, "lat": 40.4145619, "lon": -3.7134386 },
+    { "type": "node", "id": 3910891195, "lat": 40.4149122, "lon": -3.7133967 },
+    { "type": "node", "id": 3910891197, "lat": 40.4149309, "lon": -3.7133922 },
+    { "type": "node", "id": 3910891198, "lat": 40.4149496, "lon": -3.7133811 },
+    { "type": "node", "id": 3910891199, "lat": 40.4149529, "lon": -3.7133327 },
+    { "type": "node", "id": 3910891200, "lat": 40.4149578, "lon": -3.7133614 },
+    { "type": "node", "id": 3910891201, "lat": 40.4149663, "lon": -3.7132115 },
+    { "type": "node", "id": 3910891202, "lat": 40.4150207, "lon": -3.7123138 },
+    { "type": "node", "id": 3910891203, "lat": 40.4150247, "lon": -3.712295 },
+    { "type": "node", "id": 3910891204, "lat": 40.4150447, "lon": -3.712289 },
+    { "type": "node", "id": 3910891205, "lat": 40.4150591, "lon": -3.7134736 },
+    { "type": "node", "id": 3910891206, "lat": 40.4150647, "lon": -3.7122898 },
+    { "type": "node", "id": 3910891207, "lat": 40.4150744, "lon": -3.7124369 },
+    { "type": "node", "id": 3910891208, "lat": 40.4150978, "lon": -3.7122965 },
+    { "type": "node", "id": 3910891209, "lat": 40.415111, "lon": -3.7123303 },
+    { "type": "node", "id": 4437807576, "lat": 40.4142713, "lon": -3.7124049 },
+    { "type": "node", "id": 4437807577, "lat": 40.414306, "lon": -3.7124935 },
+    { "type": "node", "id": 4437807578, "lat": 40.4143576, "lon": -3.7125605 },
+    { "type": "node", "id": 4437807579, "lat": 40.414451, "lon": -3.7125645 },
+    { "type": "node", "id": 4437807580, "lat": 40.4144653, "lon": -3.7126598 },
+    { "type": "node", "id": 4437807581, "lat": 40.4144837, "lon": -3.7124814 },
+    { "type": "node", "id": 5302261816, "lat": 40.4170909, "lon": -3.7059143 },
+    { "type": "node", "id": 5302261817, "lat": 40.4171164, "lon": -3.7060209 },
+    { "type": "node", "id": 5302261818, "lat": 40.4172633, "lon": -3.7066361 },
+    { "type": "node", "id": 5302261819, "lat": 40.4168303, "lon": -3.7047055 },
+    { "type": "node", "id": 5302261820, "lat": 40.4169751, "lon": -3.7054293 },
+    { "type": "node", "id": 5302264621, "lat": 40.4173883, "lon": -3.7071594 },
+    { "type": "node", "id": 5302264622, "lat": 40.4177742, "lon": -3.7085362 },
+    { "type": "node", "id": 5308158333, "lat": 40.4187022, "lon": -3.7073916 },
+    { "type": "node", "id": 5308158334, "lat": 40.4190639, "lon": -3.7073432 },
+    { "type": "node", "id": 5308158335, "lat": 40.4190998, "lon": -3.7073372 },
+    { "type": "node", "id": 5308158336, "lat": 40.4191205, "lon": -3.7073422 },
+    { "type": "node", "id": 5308158337, "lat": 40.4193053, "lon": -3.7074142 },
+    { "type": "node", "id": 5308158338, "lat": 40.4193876, "lon": -3.7074616 },
+    { "type": "node", "id": 5308158339, "lat": 40.4194229, "lon": -3.7074841 },
+    { "type": "node", "id": 5308158340, "lat": 40.4196274, "lon": -3.707627 },
+    { "type": "node", "id": 5308158341, "lat": 40.4197049, "lon": -3.7076764 },
+    { "type": "node", "id": 5308158342, "lat": 40.4197198, "lon": -3.7076808 },
+    { "type": "node", "id": 5308158343, "lat": 40.4197255, "lon": -3.7076697 },
+    { "type": "node", "id": 5308349731, "lat": 40.4183052, "lon": -3.7072628 },
+    { "type": "node", "id": 5308349732, "lat": 40.4182659, "lon": -3.7072635 },
+    { "type": "node", "id": 5308349758, "lat": 40.4184635, "lon": -3.7069362 },
+    { "type": "node", "id": 5308349759, "lat": 40.4185013, "lon": -3.7069275 },
+    { "type": "node", "id": 5308349760, "lat": 40.4185054, "lon": -3.7069839 },
+    { "type": "node", "id": 5308349761, "lat": 40.4185421, "lon": -3.7069497 },
+    { "type": "node", "id": 5308349762, "lat": 40.4183594, "lon": -3.7068276 },
+    { "type": "node", "id": 5308349763, "lat": 40.4183828, "lon": -3.7067773 },
+    { "type": "node", "id": 5308349764, "lat": 40.4183808, "lon": -3.7067371 },
+    { "type": "node", "id": 5308349765, "lat": 40.4184999, "lon": -3.706585 },
+    { "type": "node", "id": 5308349766, "lat": 40.4185636, "lon": -3.7067559 },
+    { "type": "node", "id": 5308349767, "lat": 40.4186059, "lon": -3.7068779 },
+    { "type": "node", "id": 5308349768, "lat": 40.4186251, "lon": -3.7069621 },
+    { "type": "node", "id": 5308349769, "lat": 40.4186378, "lon": -3.7070227 },
+    { "type": "node", "id": 5308349770, "lat": 40.4186914, "lon": -3.7073838 },
+    { "type": "node", "id": 5308349771, "lat": 40.4186968, "lon": -3.7073902 },
+    { "type": "node", "id": 5308349772, "lat": 40.4182631, "lon": -3.7067143 },
+    { "type": "node", "id": 5308349773, "lat": 40.4182871, "lon": -3.7066603 },
+    { "type": "node", "id": 5308349774, "lat": 40.4182976, "lon": -3.706604 },
+    { "type": "node", "id": 5308349775, "lat": 40.4182935, "lon": -3.706544 },
+    { "type": "node", "id": 5308349776, "lat": 40.4183364, "lon": -3.7066007 },
+    { "type": "node", "id": 5308349793, "lat": 40.4182638, "lon": -3.7069195 },
+    { "type": "node", "id": 5308353498, "lat": 40.4181965, "lon": -3.7069785 },
+    { "type": "node", "id": 5308353499, "lat": 40.4182144, "lon": -3.7069628 },
+    { "type": "node", "id": 5308353500, "lat": 40.4183441, "lon": -3.7066243 },
+    { "type": "node", "id": 5308353510, "lat": 40.4182978, "lon": -3.7064777 },
+    { "type": "node", "id": 5308353635, "lat": 40.4181929, "lon": -3.7063247 },
+    { "type": "node", "id": 5308353636, "lat": 40.4182062, "lon": -3.7063334 },
+    { "type": "node", "id": 5308384165, "lat": 40.4150747, "lon": -3.707686 },
+    { "type": "node", "id": 5308384166, "lat": 40.415133, "lon": -3.706775 },
+    { "type": "node", "id": 5308384167, "lat": 40.4154015, "lon": -3.7067954 },
+    { "type": "node", "id": 5308384168, "lat": 40.4157016, "lon": -3.7068182 },
+    { "type": "node", "id": 5308384169, "lat": 40.4156894, "lon": -3.7076175 },
+    { "type": "node", "id": 5308384170, "lat": 40.4156754, "lon": -3.7079359 },
+    { "type": "node", "id": 5308384171, "lat": 40.4156477, "lon": -3.707976 },
+    { "type": "node", "id": 5308384172, "lat": 40.4157246, "lon": -3.70682 },
+    { "type": "node", "id": 5308384173, "lat": 40.4151149, "lon": -3.7067736 },
+    { "type": "node", "id": 5308384174, "lat": 40.4150639, "lon": -3.7079316 },
+    { "type": "node", "id": 5308384175, "lat": 40.4156736, "lon": -3.7079779 },
+    { "type": "node", "id": 5334568890, "lat": 40.4183556, "lon": -3.7094584 },
+    { "type": "node", "id": 5350038445, "lat": 40.4185559, "lon": -3.710015 },
+    { "type": "node", "id": 5467674834, "lat": 40.4160975, "lon": -3.7081394 },
+    { "type": "node", "id": 5467736269, "lat": 40.4178762, "lon": -3.709477 },
+    { "type": "node", "id": 5467736270, "lat": 40.4175333, "lon": -3.7094642 },
+    { "type": "node", "id": 5467736271, "lat": 40.417547, "lon": -3.7093707 },
+    { "type": "node", "id": 5648436680, "lat": 40.4182989, "lon": -3.7071146 },
+    {
+      "type": "node",
+      "id": 5970506958,
+      "lat": 40.4162434,
+      "lon": -3.7071547,
+      "tags": {
+        "bus": "yes",
+        "name": "Mayor N\u00ba 21",
+        "operator": "EMT Madrid",
+        "public_transport": "stop_position",
+        "ref": "1887",
+        "source": "https://navegapormadrid.emtmadrid.es/app/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5970506959,
+      "lat": 40.4156074,
+      "lon": -3.7100982,
+      "tags": {
+        "bus": "yes",
+        "name": "Mayor - Ayuntamiento de Madrid",
+        "operator": "EMT Madrid",
+        "public_transport": "stop_position",
+        "ref": "1886",
+        "source": "https://navegapormadrid.emtmadrid.es/app/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6090411581,
+      "lat": 40.4145582,
+      "lon": -3.7092053,
+      "tags": { "barrier": "gate" }
+    },
+    { "type": "node", "id": 6115513392, "lat": 40.4152356, "lon": -3.7077135 },
+    { "type": "node", "id": 6115513393, "lat": 40.4153144, "lon": -3.7077706 },
+    {
+      "type": "node",
+      "id": 6115513394,
+      "lat": 40.4151298,
+      "lon": -3.7077097,
+      "tags": { "source": "yahoo_maps" }
+    },
+    { "type": "node", "id": 6115513395, "lat": 40.4151182, "lon": -3.7072127 },
+    { "type": "node", "id": 6115513396, "lat": 40.4151171, "lon": -3.7072668 },
+    { "type": "node", "id": 6115513397, "lat": 40.4156099, "lon": -3.7078906 },
+    { "type": "node", "id": 6115513398, "lat": 40.4151634, "lon": -3.7077697 },
+    { "type": "node", "id": 6115513399, "lat": 40.4142678, "lon": -3.7075056 },
+    { "type": "node", "id": 6115513410, "lat": 40.414159, "lon": -3.7075102 },
+    { "type": "node", "id": 6115513411, "lat": 40.4142337, "lon": -3.7075155 },
+    { "type": "node", "id": 6115513412, "lat": 40.41428, "lon": -3.7075166 },
+    { "type": "node", "id": 6115513413, "lat": 40.4143294, "lon": -3.7075216 },
+    { "type": "node", "id": 6115513414, "lat": 40.4159103, "lon": -3.7068865 },
+    { "type": "node", "id": 6115513415, "lat": 40.4158863, "lon": -3.7068838 },
+    { "type": "node", "id": 6115513416, "lat": 40.4151872, "lon": -3.7068385 },
+    { "type": "node", "id": 6115513417, "lat": 40.4151444, "lon": -3.707722 },
+    { "type": "node", "id": 6115513418, "lat": 40.4144124, "lon": -3.7075315 },
+    { "type": "node", "id": 6115513419, "lat": 40.4145538, "lon": -3.707548 },
+    { "type": "node", "id": 6115513420, "lat": 40.4146353, "lon": -3.7075636 },
+    { "type": "node", "id": 6115513421, "lat": 40.4151326, "lon": -3.7078033 },
+    { "type": "node", "id": 6115513422, "lat": 40.4151272, "lon": -3.7077634 },
+    { "type": "node", "id": 6115513423, "lat": 40.4151074, "lon": -3.7077294 },
+    { "type": "node", "id": 6115513424, "lat": 40.4150896, "lon": -3.7077156 },
+    { "type": "node", "id": 6115513425, "lat": 40.4151182, "lon": -3.7077441 },
+    { "type": "node", "id": 6115513426, "lat": 40.4151299, "lon": -3.7077816 },
+    { "type": "node", "id": 6115513431, "lat": 40.4147154, "lon": -3.7075843 },
+    { "type": "node", "id": 6115513432, "lat": 40.414703, "lon": -3.707565 },
+    { "type": "node", "id": 6115513433, "lat": 40.4152007, "lon": -3.707722 },
+    { "type": "node", "id": 6115513434, "lat": 40.4152697, "lon": -3.7077459 },
+    { "type": "node", "id": 6115513435, "lat": 40.4151492, "lon": -3.7077203 },
+    { "type": "node", "id": 6115513436, "lat": 40.4151586, "lon": -3.7077301 },
+    { "type": "node", "id": 6115513437, "lat": 40.4151633, "lon": -3.7077512 },
+    { "type": "node", "id": 6115513438, "lat": 40.4151588, "lon": -3.7077786 },
+    { "type": "node", "id": 6115513439, "lat": 40.4151509, "lon": -3.7077847 },
+    { "type": "node", "id": 6115513440, "lat": 40.415141, "lon": -3.7077846 },
+    { "type": "node", "id": 6115514928, "lat": 40.4151211, "lon": -3.7065452 },
+    { "type": "node", "id": 6115514929, "lat": 40.4151389, "lon": -3.7066557 },
+    { "type": "node", "id": 6115514930, "lat": 40.415135, "lon": -3.7065999 },
+    { "type": "node", "id": 6115514931, "lat": 40.4151055, "lon": -3.7073769 },
+    { "type": "node", "id": 6115514932, "lat": 40.4151396, "lon": -3.7067592 },
+    { "type": "node", "id": 6501212437, "lat": 40.4160819, "lon": -3.7095581 },
+    { "type": "node", "id": 6503522623, "lat": 40.4168142, "lon": -3.7117325 },
+    { "type": "node", "id": 6503522624, "lat": 40.4167719, "lon": -3.7118046 },
+    { "type": "node", "id": 6503522639, "lat": 40.4167356, "lon": -3.7109617 },
+    { "type": "node", "id": 6503522640, "lat": 40.4167311, "lon": -3.7109602 },
+    { "type": "node", "id": 6503522641, "lat": 40.4167104, "lon": -3.7109528 },
+    { "type": "node", "id": 6553800036, "lat": 40.4163517, "lon": -3.7085262 },
+    { "type": "node", "id": 6553800037, "lat": 40.4164749, "lon": -3.7086924 },
+    { "type": "node", "id": 6553800049, "lat": 40.4167185, "lon": -3.7087211 },
+    { "type": "node", "id": 6592945019, "lat": 40.4154417, "lon": -3.7106219 },
+    { "type": "node", "id": 6592945020, "lat": 40.4154976, "lon": -3.7102758 },
+    { "type": "node", "id": 6592945021, "lat": 40.4151813, "lon": -3.7105415 },
+    { "type": "node", "id": 6592945022, "lat": 40.4149636, "lon": -3.710505 },
+    { "type": "node", "id": 6592945023, "lat": 40.415319, "lon": -3.7102443 },
+    { "type": "node", "id": 6592945024, "lat": 40.4150425, "lon": -3.7102863 },
+    { "type": "node", "id": 6592945025, "lat": 40.4149721, "lon": -3.7103172 },
+    { "type": "node", "id": 6592945026, "lat": 40.4157647, "lon": -3.7094753 },
+    { "type": "node", "id": 6592945027, "lat": 40.4157141, "lon": -3.7094527 },
+    { "type": "node", "id": 6764483198, "lat": 40.4170519, "lon": -3.7092818 },
+    { "type": "node", "id": 6764483199, "lat": 40.4164623, "lon": -3.7088835 },
+    { "type": "node", "id": 6764483200, "lat": 40.4163089, "lon": -3.7088597 },
+    { "type": "node", "id": 6832907161, "lat": 40.4158666, "lon": -3.7068825 },
+    { "type": "node", "id": 7684805423, "lat": 40.4182681, "lon": -3.7122045 },
+    { "type": "node", "id": 7684805424, "lat": 40.4182375, "lon": -3.7122072 },
+    { "type": "node", "id": 7684805425, "lat": 40.4184242, "lon": -3.712187 },
+    { "type": "node", "id": 7684805426, "lat": 40.4183957, "lon": -3.7121896 },
+    { "type": "node", "id": 7993678978, "lat": 40.415573, "lon": -3.7089064 },
+    { "type": "node", "id": 8075992346, "lat": 40.417144, "lon": -3.708696 },
+    { "type": "node", "id": 8075992347, "lat": 40.4167977, "lon": -3.7086978 },
+    { "type": "node", "id": 8075992348, "lat": 40.4164197, "lon": -3.7083974 },
+    { "type": "node", "id": 8075992349, "lat": 40.4164252, "lon": -3.708406 },
+    { "type": "node", "id": 8075992350, "lat": 40.4166068, "lon": -3.7085536 },
+    { "type": "node", "id": 8075992351, "lat": 40.4165075, "lon": -3.7085378 },
+    { "type": "node", "id": 8075992352, "lat": 40.4165523, "lon": -3.708547 },
+    { "type": "node", "id": 8075992353, "lat": 40.4163989, "lon": -3.7086128 },
+    { "type": "node", "id": 8075992354, "lat": 40.416448, "lon": -3.7084845 },
+    {
+      "type": "node",
+      "id": 8075992355,
+      "lat": 40.4164799,
+      "lon": -3.7085174,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    { "type": "node", "id": 8075992356, "lat": 40.4166526, "lon": -3.7085411 },
+    { "type": "node", "id": 8075992357, "lat": 40.4167375, "lon": -3.7084936 },
+    { "type": "node", "id": 8075992358, "lat": 40.4167488, "lon": -3.7085392 },
+    { "type": "node", "id": 8075992359, "lat": 40.4167397, "lon": -3.7085807 },
+    {
+      "type": "node",
+      "id": 8075992360,
+      "lat": 40.4164621,
+      "lon": -3.7085948,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    { "type": "node", "id": 8075992361, "lat": 40.4164269, "lon": -3.7085941 },
+    { "type": "node", "id": 8075992362, "lat": 40.4167026, "lon": -3.7086366 },
+    { "type": "node", "id": 8075992363, "lat": 40.4167536, "lon": -3.7086721 },
+    {
+      "type": "node",
+      "id": 8076030874,
+      "lat": 40.416067,
+      "lon": -3.7115184,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    { "type": "node", "id": 8076035635, "lat": 40.4159782, "lon": -3.7120148 },
+    { "type": "node", "id": 8076035636, "lat": 40.416077, "lon": -3.7112476 },
+    { "type": "node", "id": 8076035637, "lat": 40.4159154, "lon": -3.7111971 },
+    { "type": "node", "id": 8076035638, "lat": 40.415887, "lon": -3.7111883 },
+    { "type": "node", "id": 8076035639, "lat": 40.4160841, "lon": -3.7112498 },
+    { "type": "node", "id": 8078077926, "lat": 40.4181315, "lon": -3.7093534 },
+    { "type": "node", "id": 8294983606, "lat": 40.4139181, "lon": -3.7085993 },
+    { "type": "node", "id": 8322325507, "lat": 40.41627, "lon": -3.7069432 },
+    { "type": "node", "id": 8325983616, "lat": 40.4168343, "lon": -3.711943 },
+    { "type": "node", "id": 8326009617, "lat": 40.4170687, "lon": -3.7117168 },
+    { "type": "node", "id": 8398470311, "lat": 40.4160442, "lon": -3.7086887 },
+    { "type": "node", "id": 8785684064, "lat": 40.4178732, "lon": -3.7093804 },
+    { "type": "node", "id": 9071663150, "lat": 40.4171563, "lon": -3.7069005 },
+    {
+      "type": "node",
+      "id": 9071663157,
+      "lat": 40.4172512,
+      "lon": -3.706859,
+      "tags": { "barrier": "gate" }
+    },
+    { "type": "node", "id": 9077087056, "lat": 40.4148085, "lon": -3.7097609 },
+    { "type": "node", "id": 9077087068, "lat": 40.4145262, "lon": -3.7091267 },
+    { "type": "node", "id": 9077087092, "lat": 40.414866, "lon": -3.7092442 },
+    { "type": "node", "id": 9165522315, "lat": 40.4196441, "lon": -3.7092438 },
+    { "type": "node", "id": 9262386112, "lat": 40.417182, "lon": -3.7132277 },
+    { "type": "node", "id": 9524665807, "lat": 40.4151317, "lon": -3.7093241 },
+    { "type": "node", "id": 9593051418, "lat": 40.4194354, "lon": -3.7115286 },
+    { "type": "node", "id": 9593051419, "lat": 40.4182507, "lon": -3.712206 },
+    { "type": "node", "id": 9593051420, "lat": 40.418412, "lon": -3.7121881 },
+    { "type": "node", "id": 9593051421, "lat": 40.4171396, "lon": -3.7121621 },
+    { "type": "node", "id": 9719229572, "lat": 40.4179628, "lon": -3.7094056 },
+    {
+      "type": "way",
+      "id": 4264184,
+      "nodes": [3910891205, 1179022053, 178820863, 26444973],
+      "tags": {
+        "cycleway:lanes": "shared_lane|none|none|shared_lane",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "maxspeed": "30",
+        "name": "Calle Mayor",
+        "postal_code": "28013",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left;through|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4319472,
+      "nodes": [6592945023, 26213601, 26213602, 26213603, 1501435798, 26213604],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle del Codo",
+        "postal_code": "28005",
+        "wikidata": "Q28050951"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4330856,
+      "nodes": [
+        26342799, 3448860335, 26342807, 1640604439, 1640604435, 7684805424,
+        1640604437, 1640604441
+      ],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 4362027,
+      "nodes": [21734267, 3835537683, 2005647993, 1235055767],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de Toledo",
+        "postal_code": "28012",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4487157,
+      "nodes": [
+        26212784, 26213298, 26213297, 26213296, 3519909374, 26213295, 26213294,
+        9165522315
+      ],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Calle de Campomanes",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "sidewalk": "both",
+        "source": "survey",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4487676,
+      "nodes": [27717686, 8075992348, 8075992349],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "20",
+        "name": "Calle de San Felipe Neri",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4518849,
+      "nodes": [21734250, 3507528479, 1235055793],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle del Siete de Julio",
+        "postal_code": "28012",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4518850,
+      "nodes": [21734250, 2506478087, 3507557297, 27717686],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de San Felipe Neri",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4518851,
+      "nodes": [
+        21734249, 2622900858, 3507528492, 1789051704, 3507557298, 21734246,
+        3502487950, 3414972218
+      ],
+      "tags": {
+        "access": "destination",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "20",
+        "motor_vehicle": "destination",
+        "name": "Calle de Bordadores",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "paving_stones:20"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4519454,
+      "nodes": [21734271, 21734272],
+      "tags": { "highway": "service", "source": "survey" }
+    },
+    {
+      "type": "way",
+      "id": 4950796,
+      "nodes": [26213216, 26213221],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle del Lazo",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4950798,
+      "nodes": [26213226, 345198916, 26213210, 26213212],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle del Conde de Lemos",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4950799,
+      "nodes": [26213195, 26213205, 345198922, 26213226],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de Santa Clara",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4950800,
+      "nodes": [345198796, 345198797, 26213205],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "living_street",
+        "motor_vehicle": "destination",
+        "name": "Calle de la Amnist\u00eda",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 5930429,
+      "nodes": [21734272, 2446976641, 1235055787],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle Botoneras",
+        "postal_code": "28012",
+        "wikidata": "Q28050982"
+      }
+    },
+    {
+      "type": "way",
+      "id": 5930456,
+      "nodes": [26213538, 1235055799],
+      "tags": {
+        "highway": "service",
+        "name": "Plaza de San Miguel",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 5930458,
+      "nodes": [21734234, 48752963],
+      "tags": {
+        "highway": "steps",
+        "loc_name": "Arco de Cuchilleros",
+        "name": "Calle de la Escalerilla de Piedra",
+        "name:de": "Bogen der Messerschleifer",
+        "name:es": "Calle de la Escalerilla de Piedra",
+        "source:alt_name": "@secretosdemadri",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 5930462,
+      "nodes": [48752963, 3835589361, 48752960],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Calle de los Cuchilleros",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7642947,
+      "nodes": [21734246, 21734245],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza de San Gin\u00e9s",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7642990,
+      "nodes": [26213536, 9524665807, 26213606],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle Conde de Miranda",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7648788,
+      "nodes": [3835579720, 2701867121, 26213582, 26213581, 26213577],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de Calder\u00f3n de la Barca",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7726324,
+      "nodes": [
+        26213270, 3564082113, 26213525, 4437807576, 4437807577, 26213526,
+        4437807578, 1501435703, 26213527
+      ],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle de la Villa",
+        "oneway": "yes",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7726325,
+      "nodes": [26213219, 26213187],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de Independencia",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971921,
+      "nodes": [3414972238, 8075992346, 26213285, 8075992347, 8075992363],
+      "tags": {
+        "access": "destination",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de las Fuentes",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971922,
+      "nodes": [
+        8075992363, 8075992362, 8075992360, 8075992361, 8075992353, 21734254
+      ],
+      "tags": {
+        "access": "destination",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "motor_vehicle": "destination",
+        "name": "Plaza de Herradores",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971923,
+      "nodes": [21734252, 3414972228],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de las Hileras",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971924,
+      "nodes": [345198647, 551573440],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971925,
+      "nodes": [3414972225, 26213330, 1636940728, 333218855],
+      "tags": {
+        "access": "destination",
+        "cycleway:both": "no",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de San Mart\u00edn",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971929,
+      "nodes": [26213289, 345198519, 3414972245],
+      "tags": {
+        "access": "destination",
+        "highway": "residential",
+        "name": "Costanilla de los \u00c1ngeles",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971930,
+      "nodes": [26213325, 26213317],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Traves\u00eda de los Trujillos",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971932,
+      "nodes": [26213306, 26213323],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de las Conchas",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971935,
+      "nodes": [26213290, 345198507, 3414972243],
+      "tags": {
+        "access": "destination",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "name": "Calle de los Donados",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "surface": "asphalt",
+        "wikidata": "Q28007290"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7971936,
+      "nodes": [
+        26212784, 1365680128, 1789638267, 26212785, 1365680130, 1365680132
+      ],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Plaza de Isabel II",
+        "postal_code": "28013",
+        "psv": "yes",
+        "sidewalk": "separate",
+        "source": "survey",
+        "surface": "paving_stones",
+        "survey:date": "20110718"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7973716,
+      "nodes": [
+        26213527, 4437807579, 4437807581, 1501435750, 3657726917, 26213528,
+        26213529
+      ],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle del Pretil de los Consejos",
+        "oneway": "yes",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988350,
+      "nodes": [26213539, 2701918435, 3507563001, 26213538],
+      "tags": {
+        "highway": "residential",
+        "name": "Traves\u00eda de Bringas",
+        "oneway": "yes",
+        "postal_code": "28012",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988353,
+      "nodes": [21954006, 3835589357, 21954040],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle del Maestro Villa",
+        "postal_code": "28005",
+        "surface": "paving_stones",
+        "wikidata": "Q29005538"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988355,
+      "nodes": [
+        26213280, 2701867120, 345198871, 26213584, 345198811, 26213585, 26213588
+      ],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de San Nicol\u00e1s",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988357,
+      "nodes": [26213581, 8076035637, 26213580, 345198804],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza del Biombo",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988358,
+      "nodes": [26213589, 8325983616, 26213595],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "maxspeed": "50",
+        "motor_vehicle": "destination",
+        "name": "Calle de Noblejas",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988359,
+      "nodes": [26213584, 345198857, 26213583, 26213582],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle Juan de Herrera",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988360,
+      "nodes": [26213573, 26213575, 26213576, 2701867122, 26213283],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de los Se\u00f1ores de Luz\u00f3n",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988362,
+      "nodes": [26213545, 26213547, 26213548, 6764483199, 21734258],
+      "tags": {
+        "access": "destination",
+        "highway": "pedestrian",
+        "name": "Calle del Bonetillo",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988363,
+      "nodes": [26213545, 26213546, 1235055803, 26213541],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle del Mes\u00f3n de Pa\u00f1os",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988366,
+      "nodes": [26213573, 1179022343, 26213226],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza de Santiago",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988367,
+      "nodes": [
+        345198890, 345198883, 1235055801, 26213226, 345198903, 26213229,
+        26213231
+      ],
+      "tags": {
+        "access": "delivery",
+        "highway": "pedestrian",
+        "name": "Calle de Santiago",
+        "oneway": "yes",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7988368,
+      "nodes": [26213541, 345198713, 26213231],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Costanilla de Santiago",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 17252047,
+      "nodes": [26213588, 26213590, 3257245144, 26213573],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Calle de la Cruzada",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 17252048,
+      "nodes": [1258876347, 2506478084, 3507529700, 1258876333, 21734245],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de Coloreros",
+        "postal_code": "28013",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 17760808,
+      "nodes": [26213290, 26213289],
+      "tags": {
+        "access": "destination",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Plaza de Santa Catalina de los Donados",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 17760812,
+      "nodes": [26213327, 26213326, 26213290],
+      "tags": {
+        "access": "destination",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Calle de la Flora",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 17760817,
+      "nodes": [26213323, 26213325],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Calle de los Trujillos",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29001399,
+      "nodes": [26213527, 4437807580, 927878141, 318918222, 318917897],
+      "tags": {
+        "highway": "service",
+        "name": "Calle del Pretil de los Consejos"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30247268,
+      "nodes": [26213326, 26213325],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "motor_vehicle": "destination",
+        "name": "Calle de los Trujillos",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31021778,
+      "nodes": [
+        26213317, 2835449216, 1200524897, 333219510, 5308349761, 1522690037,
+        5308349759, 1522690036, 5308349758, 333219513, 333219515, 333219518,
+        3323223809, 333219460
+      ],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Plaza de San Mart\u00edn",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31021779,
+      "nodes": [
+        333218855, 1522690018, 1636940730, 333218857, 1522690027, 26213314,
+        1522690029, 1522690031, 3838014631, 5648436680, 3838014632, 333219460,
+        26213315, 344926746, 26213327
+      ],
+      "tags": {
+        "access": "destination",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Plaza de San Mart\u00edn",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053340,
+      "nodes": [26212781, 1652767894, 3208363773, 3519909373, 26212782],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "motor_vehicle": "destination",
+        "name": "Calle de Arrieta",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "asphalt",
+        "wikidata": "Q29002218"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053341,
+      "nodes": [345198765, 345198788, 345198781, 345198395],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053347,
+      "nodes": [333219510, 345198588, 5308349760, 345198597, 345198606],
+      "tags": { "highway": "service", "lanes": "1", "oneway": "yes" }
+    },
+    {
+      "type": "way",
+      "id": 31053349,
+      "nodes": [26213330, 345198636, 345198640, 26213329],
+      "tags": { "highway": "footway", "name": "Calle Francisco Piquer" }
+    },
+    {
+      "type": "way",
+      "id": 31053350,
+      "nodes": [345198673, 345198655],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "name": "Pasadizo de San Gin\u00e9s",
+        "postal_code": "28013",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053351,
+      "nodes": [345198655, 178821153, 3414972216, 5302261818],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Pasadizo de San Gin\u00e9s",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053352,
+      "nodes": [21734245, 345198673],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Pasadizo de San Gin\u00e9s",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053354,
+      "nodes": [8075992363, 1235055815, 8075992359, 8075992358, 21734252],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Plaza de Herradores",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053356,
+      "nodes": [8075992349, 21734254],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Plaza de Herradores",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053358,
+      "nodes": [
+        8075992349, 8075992354, 8075992355, 8075992351, 8075992352, 8075992350,
+        8075992356, 8075992357, 21734252
+      ],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Plaza de Herradores",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053363,
+      "nodes": [21734254, 345198687, 8398470311, 2622900857, 345198698],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "name": "Plaza del Comandante Las Morenas",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053366,
+      "nodes": [1365680122, 26213544, 6764483198, 26213545],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de la Escalinata",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053370,
+      "nodes": [26213231, 6501212437, 2540726835, 2506478090, 1235055771],
+      "tags": {
+        "access": "delivery",
+        "highway": "pedestrian",
+        "name": "Calle de los Milaneses",
+        "oneway": "yes",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053371,
+      "nodes": [
+        26213196, 927878106, 26213596, 351124060, 3246224684, 9262386112,
+        3448827663
+      ],
+      "tags": {
+        "access": "destination",
+        "highway": "residential",
+        "name": "Calle de Requena",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053373,
+      "nodes": [26213596, 26213595],
+      "tags": {
+        "created_by": "Potlatch 0.10c",
+        "highway": "steps",
+        "name": "Calle de Rebeque",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053374,
+      "nodes": [
+        26213196, 3448827661, 345198741, 1640604354, 345198752, 345198759
+      ],
+      "tags": {
+        "access": "no",
+        "highway": "living_street",
+        "name": "Calle de Lepanto",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q29007055"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053376,
+      "nodes": [345198395, 345198384],
+      "tags": {
+        "highway": "living_street",
+        "incline": "up",
+        "name": "Calle de Pav\u00eda",
+        "oneway": "yes",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q30816733"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053377,
+      "nodes": [
+        26213187, 3519909370, 1255433820, 1789638257, 3876402607, 5467736269,
+        1365680122
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "living_street",
+        "name": "Plaza de Isabel II",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "source": "survey",
+        "survey:date": "20110718"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053379,
+      "nodes": [26213594, 26213593, 26213586, 26213587, 2701867119, 26444973],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle del Factor",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053381,
+      "nodes": [26213588, 345198801, 26213592],
+      "tags": { "created_by": "JOSM", "highway": "footway", "source": "survey" }
+    },
+    {
+      "type": "way",
+      "id": 31053382,
+      "nodes": [8076030874, 26213578, 8076035636, 26213577],
+      "tags": {
+        "highway": "service",
+        "service": "driveway",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053383,
+      "nodes": [26213577, 26213575],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Traves\u00eda de los Se\u00f1ores de Luz\u00f3n",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053384,
+      "nodes": [26213583, 3639948409],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Traves\u00eda del Biombo",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053385,
+      "nodes": [
+        345198804, 26213579, 1179022681, 8076035635, 26213585, 26213586
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle del Biombo",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053386,
+      "nodes": [
+        8076035638, 3639948415, 3639948425, 3639948431, 3639948432, 3639948430,
+        3639948429, 3639948428, 3639948427, 345198804, 3639948434, 3639948439,
+        345198807, 8076030874, 3639948442, 3639948450, 8076035639, 8076035636,
+        8076035637, 8076035638
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza del Biombo",
+        "place": "square",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053387,
+      "nodes": [
+        345198810, 1179022482, 1179021897, 345198811, 2540742067, 1179022726,
+        2540742068, 345198850, 345198857, 345198864, 3643000752, 1179022156,
+        1179022083, 345198871, 3643000732, 3643000750, 345198878, 345198810
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza de San Nicol\u00e1s",
+        "place": "square",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31053390,
+      "nodes": [26213541, 6764483200, 21734258],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Costanilla de Santiago",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31092431,
+      "nodes": [3835537669, 26213532, 26213531, 9077087068, 26213530, 26213607],
+      "tags": {
+        "highway": "living_street",
+        "name": "Calle de la Pasa",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31092480,
+      "nodes": [
+        26213530, 6090411581, 345531837, 1235011918, 1235011911, 347281687
+      ],
+      "tags": {
+        "access": "private",
+        "highway": "pedestrian",
+        "name": "Pasadizo del Panecillo",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31092489,
+      "nodes": [
+        6592945025, 3614543737, 1501435785, 927878112, 3835579682, 26213276
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Calle del Cord\u00f3n",
+        "postal_code": "28005",
+        "source": "survey",
+        "source:date": "20110303",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31092496,
+      "nodes": [6592945022, 26213598, 1235011993],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de Madrid",
+        "name:etymology:wikidata": "Q2807",
+        "postal_code": "28005",
+        "source": "survey",
+        "source:date": "20110303",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31092504,
+      "nodes": [3835579699, 3835579701, 927878127, 1179021978],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle del Duque de N\u00e1jera",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31092507,
+      "nodes": [345532024, 3835579720],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle del Duque de N\u00e1jera",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31092511,
+      "nodes": [
+        3835579719, 1235055751, 3835579715, 927878146, 3835579703, 345532038
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de la Traviesa",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31233997,
+      "nodes": [
+        347279781, 347279978, 3835589247, 347279454, 3835589251, 347279114,
+        2005648779, 3835579691, 3835579694
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Calle del Rollo",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31234080,
+      "nodes": [347280557, 3835579693],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "name": "Calle del Rollo",
+        "ramp": "separate",
+        "ramp:wheelchair": "separate",
+        "step_count": "13",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31234083,
+      "nodes": [345531992, 347280557],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Calle del Rollo",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31234098,
+      "nodes": [347280796, 3835579696, 347280797],
+      "tags": { "highway": "service", "oneway": "yes" }
+    },
+    {
+      "type": "way",
+      "id": 31234099,
+      "nodes": [347280801, 3835579700, 347280798],
+      "tags": { "highway": "service", "oneway": "yes" }
+    },
+    {
+      "type": "way",
+      "id": 31234179,
+      "nodes": [
+        26213272, 3835589250, 730702112, 26213276, 3835579684, 3614543718,
+        3835579693, 3835579694, 347280796, 347280798, 3835579699, 345532038,
+        1179022241, 3835579713, 26213278
+      ],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle del Sacramento",
+        "oneway": "yes",
+        "postal_code": "28005",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31261528,
+      "nodes": [
+        21734249, 1258876345, 1258876334, 5970506958, 1258876347, 21734244,
+        8322325507, 3507529697, 3507529704, 21734224, 1258876329, 21734223
+      ],
+      "tags": {
+        "access": "permissive",
+        "cycleway:left": "lane",
+        "cycleway:right": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Calle Mayor",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "postal_code": "28013",
+        "psv": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31261632,
+      "nodes": [21734244, 347602936],
+      "tags": {
+        "highway": "residential",
+        "name": "Calle de Felipe III",
+        "oneway": "yes",
+        "postal_code": "28012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34095421,
+      "nodes": [
+        6115513394, 6115513435, 6115513436, 6115513437, 6115513398, 6115513438,
+        6115513439, 6115513440
+      ],
+      "tags": {
+        "highway": "service",
+        "layer": "-2",
+        "location": "underground",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41600137,
+      "nodes": [
+        48752959, 21954137, 2005647994, 2701918433, 48752960, 3507528469,
+        21954006
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Calle Cava de San Miguel",
+        "oneway": "yes",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41602114,
+      "nodes": [
+        510827492, 510827494, 510827495, 6115514928, 6115514930, 6115514929,
+        6115514932, 510827497, 510827499, 510827501, 6115514931, 510827503,
+        510827506, 6115513392, 6115513434, 6115513393, 510827508
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "tertiary",
+        "lanes": "1",
+        "layer": "-2",
+        "location": "underground",
+        "maxheight": "2.7 m",
+        "maxspeed": "20",
+        "name": "Calle de Atocha",
+        "oneway": "yes",
+        "postal_code": "28012",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41602115,
+      "nodes": [510827499, 6115513395, 510827512],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "location": "underground",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41602116,
+      "nodes": [347602936, 6115513414, 6115513415, 6832907161, 510827515],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "location": "underground",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41602117,
+      "nodes": [510827512, 6115513396, 510827501],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "location": "underground",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41602118,
+      "nodes": [510827512, 347603099],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "location": "underground",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43631108,
+      "nodes": [26213330, 1522690014, 345198647],
+      "tags": { "highway": "service", "oneway": "yes" }
+    },
+    {
+      "type": "way",
+      "id": 43631110,
+      "nodes": [
+        345198606, 551573493, 5308349731, 551573502, 5308349732, 3838014629,
+        3838014630, 551573440, 3838014628, 5308353636, 5308353635, 345198616,
+        345198554
+      ],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49016408,
+      "nodes": [
+        21954006, 3507528468, 3835543724, 26213236, 3835543723, 26213534,
+        21953989
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle de Cuchilleros",
+        "oneway": "yes",
+        "postal_code": "28005",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49016412,
+      "nodes": [8294983606, 3835537670, 21954198],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle G\u00f3mez de Mora",
+        "postal_code": "28005",
+        "wikidata": "Q29004934"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49016413,
+      "nodes": [26213538, 2540726834, 48752959],
+      "tags": {
+        "highway": "residential",
+        "name": "Calle Cava de San Miguel",
+        "oneway": "yes",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49016414,
+      "nodes": [1235055799, 7993678978, 3835579732],
+      "tags": {
+        "highway": "footway",
+        "name": "Cava de San Miguel",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58963928,
+      "nodes": [26213604, 9077087056, 26213605],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza del Conde de Miranda",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 66833793,
+      "nodes": [
+        48752939, 21734272, 3323271328, 21734270, 3835537693, 3835537688,
+        21734269, 1796759112, 21734267
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Calle Imperial",
+        "oneway": "yes",
+        "postal_code": "28012",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 71634922,
+      "nodes": [
+        345198698, 21734256, 1258876338, 5467674834, 21734250, 21734249
+      ],
+      "tags": {
+        "cycleway:left": "lane",
+        "cycleway:right": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Calle Mayor",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 78589192,
+      "nodes": [
+        26213229, 1235055781, 26213212, 26213214, 26213216, 1235055804, 26213219
+      ],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle del Espejo",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "sidewalk": "both",
+        "source": "survey",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79483254,
+      "nodes": [510827508, 510827526, 510827529, 510827531, 27717686],
+      "tags": {
+        "foot": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "20",
+        "name": "Calle de Toledo",
+        "oneway": "yes",
+        "postal_code": "28012",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79483257,
+      "nodes": [1179022124, 927878140, 9593051421, 927878106],
+      "tags": { "highway": "service" }
+    },
+    {
+      "type": "way",
+      "id": 79483258,
+      "nodes": [26213278, 1258876331, 26213280],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle del Sacramento",
+        "oneway": "yes",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 79483259,
+      "nodes": [26213289, 26213306, 26213305],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "name": "Costanilla de los \u00c1ngeles",
+        "oneway": "yes",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 82280715,
+      "nodes": [26067817, 3519909372, 26212782],
+      "tags": {
+        "access": "destination",
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Cuesta de Santo Domingo",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "source": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 102154788,
+      "nodes": [345532024, 345531992],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Calle de Madrid",
+        "name:etymology:wikidata": "Q2807",
+        "postal_code": "28005",
+        "source": "survey",
+        "source:date": "20110303",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 102154828,
+      "nodes": [1179021978, 345532024],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Calle del Duque de N\u00e1jera",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 102154849,
+      "nodes": [347280797, 347280795, 1501435787, 347280801],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "maxheight": "below_default",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107465462,
+      "nodes": [1235011864, 345531992],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de Madrid",
+        "name:etymology:wikidata": "Q2807",
+        "postal_code": "28005",
+        "source": "survey",
+        "source:date": "20110303",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107465464,
+      "nodes": [26213529, 3657726918, 1501435803, 26213278],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle del Sacramento",
+        "oneway": "yes",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107465466,
+      "nodes": [1235011993, 1235011864],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "name": "Calle de Madrid",
+        "name:etymology:wikidata": "Q2807",
+        "postal_code": "28005",
+        "source": "survey",
+        "source:date": "20110303",
+        "surface": "sett",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467872,
+      "nodes": [48752955, 1235055742, 1235055760],
+      "tags": {
+        "highway": "service",
+        "name": "Plaza de San Miguel",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467873,
+      "nodes": [48752953, 6592945026, 1235055771],
+      "tags": {
+        "cycleway:lanes": "shared_lane|shared_lane|shared_lane",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "maxspeed": "30",
+        "name": "Calle Mayor",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467874,
+      "nodes": [1235055793, 21734238],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "lit": "yes",
+        "name": "Calle del Siete de Julio",
+        "postal_code": "28012",
+        "source": "survey",
+        "surface": "paving_stones",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467878,
+      "nodes": [48752959, 26213536, 48752955],
+      "tags": {
+        "highway": "service",
+        "name": "Plaza de San Miguel",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467880,
+      "nodes": [1235055767, 21734240],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "name": "Calle de Toledo",
+        "postal_code": "28012",
+        "surface": "paving_stones",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467881,
+      "nodes": [1235055771, 3835579732, 1258876332],
+      "tags": {
+        "cycleway:left": "lane",
+        "cycleway:right": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Calle Mayor",
+        "oneway:bicycle": "no",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467883,
+      "nodes": [1235055760, 1235055799],
+      "tags": {
+        "highway": "service",
+        "name": "Plaza de San Miguel",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107467884,
+      "nodes": [26213539, 3507528474],
+      "tags": {
+        "bicycle": "dismount",
+        "highway": "pedestrian",
+        "name": "Calle Ciudad Rodrigo",
+        "postal_code": "28012",
+        "source": "survey",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116821890,
+      "nodes": [1316127619, 1316127385],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "local_name": "Callej\u00f3n del Infierno",
+        "name": "Calle del Arco del Triunfo",
+        "postal_code": "28012",
+        "source:local_name": "http://www.secretosdemadrid.es/el-callejon-del-infierno/",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116821908,
+      "nodes": [1316127214, 1316127468],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "local_name": "Callej\u00f3n del Infierno",
+        "name": "Calle del Arco del Triunfo",
+        "postal_code": "28012",
+        "source:local_name": "http://www.secretosdemadrid.es/el-callejon-del-infierno/",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116821925,
+      "nodes": [1316127468, 1316127619],
+      "tags": {
+        "highway": "pedestrian",
+        "local_name": "Callej\u00f3n del Infierno",
+        "name": "Calle del Arco del Triunfo",
+        "postal_code": "28012",
+        "source:local_name": "http://www.secretosdemadrid.es/el-callejon-del-infierno/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 116821934,
+      "nodes": [1258876345, 3507528481, 1316127214],
+      "tags": {
+        "highway": "pedestrian",
+        "local_name": "Callej\u00f3n del Infierno",
+        "name": "Calle del Arco del Triunfo",
+        "postal_code": "28012",
+        "source:local_name": "http://www.secretosdemadrid.es/el-callejon-del-infierno/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122150988,
+      "nodes": [1365680132, 1255433815, 26213304],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Calle de Ca\u00f1os del Peral",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122150989,
+      "nodes": [26213187, 26213190, 26213193],
+      "tags": {
+        "highway": "living_street",
+        "name": "Calle de Vergara",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "source": "survey",
+        "wikidata": "Q29004234"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122150990,
+      "nodes": [26213193, 26213195],
+      "tags": {
+        "highway": "residential",
+        "name": "Calle de Vergara",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "source": "survey",
+        "wikidata": "Q29004234"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122150992,
+      "nodes": [1365680107, 3579004056],
+      "tags": { "highway": "steps", "incline": "down" }
+    },
+    {
+      "type": "way",
+      "id": 122150993,
+      "nodes": [
+        5334568890, 1789638264, 3276908428, 2017305756, 3257245159, 26212786,
+        3257245157, 2017305768, 3257245155, 1365680123, 3257245156, 2017305754,
+        3257245158, 1365680124, 1365680129, 3257246061, 1365680131, 1365680132
+      ],
+      "tags": {
+        "access": "no",
+        "bus": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "lanes": "1",
+        "name": "Plaza de Isabel II",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "taxi": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 122151091,
+      "nodes": [1255433812, 26213289],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de la Priora",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 136859956,
+      "nodes": [1501435832, 1501435800],
+      "tags": { "highway": "steps" }
+    },
+    {
+      "type": "way",
+      "id": 138884772,
+      "nodes": [
+        345198587, 26213313, 5308349775, 333219053, 5308349774, 1200524877,
+        5308349773, 1522690032, 5308349772, 3323223808, 26213314
+      ],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Plaza de las Descalzas",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 151240773,
+      "nodes": [1640604439, 1640604453],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 151240774,
+      "nodes": [
+        1640604499, 1640604468, 1640604462, 1789638266, 1640604441, 1640604419,
+        1640604369
+      ],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 151240777,
+      "nodes": [26342805, 1640604465, 1640604467, 1640604468],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 151240778,
+      "nodes": [26342808, 1640604414, 1640604416, 1640604419],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 151240783,
+      "nodes": [26342805, 26342812],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 151240785,
+      "nodes": [1640604359, 1640604416, 1640604437],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 151240786,
+      "nodes": [1640604456, 1640604445, 1640604435],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 152458475,
+      "nodes": [26213193, 26213207, 26213221, 26213210],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de la Uni\u00f3n",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 167568537,
+      "nodes": [
+        26342801, 3448860342, 26342806, 1640604453, 1640604456, 7684805425,
+        1640604460, 1640604462
+      ],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 167568541,
+      "nodes": [1640604449, 1789638266, 1789638268],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 167568544,
+      "nodes": [
+        1640604378, 1640604369, 1640604359, 1640604356, 26342811, 1640604354,
+        3448860322, 3448860328, 3448860332, 3448860335, 3448860336, 3448860338,
+        3448860341, 3448860342, 3448860345, 3448860347, 1789638273, 26342812
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza de Oriente",
+        "postal_code": "28013",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320898236,
+      "nodes": [345198759, 345198765],
+      "tags": {
+        "access": "no",
+        "highway": "living_street",
+        "incline": "down",
+        "name": "Calle de Lepanto",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q29007055"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320898237,
+      "nodes": [345198384, 345198376, 1789638273, 345198366],
+      "tags": {
+        "access": "no",
+        "highway": "living_street",
+        "name": "Calle de Pav\u00eda",
+        "oneway": "yes",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q30816733"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320898238,
+      "nodes": [3275673384, 8785684064, 1365680107],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 320898239,
+      "nodes": [265983579, 8078077926, 3257245143],
+      "tags": { "highway": "footway", "layer": "-1", "tunnel": "yes" }
+    },
+    {
+      "type": "way",
+      "id": 320898240,
+      "nodes": [3275673386, 1789638264],
+      "tags": { "foot": "yes", "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 320898241,
+      "nodes": [265983579, 3275673384],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 331165013,
+      "nodes": [26213195, 345198728, 2017305765, 26213196],
+      "tags": {
+        "highway": "residential",
+        "name": "Calle de Vergara",
+        "postal_code": "28013",
+        "source": "survey",
+        "wikidata": "Q29004234"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334382541,
+      "nodes": [3414972228, 21734253, 3414972232],
+      "tags": {
+        "highway": "living_street",
+        "name": "Calle de las Hileras",
+        "oneway": "yes",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334382542,
+      "nodes": [3414972232, 26213329, 26213328, 1522690024, 26213327],
+      "tags": {
+        "access": "destination",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle de las Hileras",
+        "oneway": "yes",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334382543,
+      "nodes": [3414972243, 5302264622, 3414972238],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Calle de los Donados",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 334382549,
+      "nodes": [
+        3414972217, 3414972220, 3414972221, 3414972222, 3414972223, 3414972229,
+        3414972230, 3414972231, 3414972234, 3414972236, 3414972240, 3414972241,
+        3414972248, 3414972249, 3414972251, 3414972252, 5308353510, 5308349776,
+        5308353500, 5308349764
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 335542953,
+      "nodes": [345198366, 9593051418, 345198357],
+      "tags": {
+        "access": "no",
+        "highway": "living_street",
+        "motor_vehicle": "destination",
+        "name": "Calle de Pav\u00eda",
+        "oneway": "yes",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q30816733"
+      }
+    },
+    {
+      "type": "way",
+      "id": 337827306,
+      "nodes": [26342799, 26213190],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de Carlos III",
+        "name:etymology:wikidata": "Q36234",
+        "postal_code": "28013",
+        "source": "survey",
+        "wikidata": "Q29004341"
+      }
+    },
+    {
+      "type": "way",
+      "id": 337827312,
+      "nodes": [26342801, 26212783],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de Felipe V",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 337829608,
+      "nodes": [
+        26342805, 3448860344, 3448860343, 26342806, 3448860340, 3448860339,
+        3448860337, 26342807, 3448860334, 3448860333, 26342808
+      ],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 337829610,
+      "nodes": [26342811, 26342808],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 343971958,
+      "nodes": [3507528474, 26213540],
+      "tags": {
+        "highway": "steps",
+        "layer": "-1",
+        "name": "Calle Ciudad Rodrigo",
+        "source": "survey",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 343971959,
+      "nodes": [3507528477, 21734239],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "name": "Calle de Felipe III",
+        "postal_code": "28012",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 352139543,
+      "nodes": [3579004058, 1365680109],
+      "tags": { "highway": "steps", "incline": "up" }
+    },
+    {
+      "type": "way",
+      "id": 355939668,
+      "nodes": [26444973, 26213280],
+      "tags": {
+        "cycleway:lanes": "shared_lane|shared_lane|shared_lane",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "maxspeed": "30",
+        "name": "Calle Mayor",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355939669,
+      "nodes": [
+        26213280, 1258876348, 3835579719, 3835579720, 26213282, 26213283,
+        26213284, 5970506959, 48752953
+      ],
+      "tags": {
+        "cycleway:lanes": "shared_lane|shared_lane|shared_lane",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "maxspeed": "30",
+        "name": "Calle Mayor",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 359239317,
+      "nodes": [3639948409, 3639948413],
+      "tags": {
+        "highway": "pedestrian",
+        "layer": "-1",
+        "name": "Traves\u00eda del Biombo",
+        "postal_code": "28013",
+        "source": "survey",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 359239318,
+      "nodes": [3639948413, 26213579],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Traves\u00eda del Biombo",
+        "postal_code": "28013",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 380211169,
+      "nodes": [
+        3835537693, 3835537691, 3835537686, 48752949, 3835537690, 21734266
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Calle de la Lechuga",
+        "oneway": "yes",
+        "postal_code": "28012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 380211174,
+      "nodes": [3835537687, 1796759112, 3835537680],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 387848384,
+      "nodes": [
+        3910891184, 3910891187, 3910891191, 3910891194, 3910891195, 3910891197,
+        3910891198, 3910891200, 3910891199, 3910891201, 1501435832, 3910891207,
+        3910891209, 3910891208, 3910891206, 3910891204, 3910891203, 3910891202,
+        1501435800
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 402785501,
+      "nodes": [21734258, 345198687],
+      "tags": {
+        "highway": "residential",
+        "name": "Plaza del Comandante Las Morenas",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 417400306,
+      "nodes": [3257245143, 3275673386],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 435012914,
+      "nodes": [3414972218, 5302264621, 3414972225],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "living_street",
+        "maxspeed": "20",
+        "motor_vehicle": "destination",
+        "name": "Calle de Bordadores",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "paving_stones:20"
+      }
+    },
+    {
+      "type": "way",
+      "id": 477090981,
+      "nodes": [26212782, 3275673387, 26212783, 5350038445],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "motor_vehicle": "destination",
+        "name": "Calle de Arrieta",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q29002218"
+      }
+    },
+    {
+      "type": "way",
+      "id": 548874631,
+      "nodes": [
+        26213303, 5302264622, 21734253, 5302264621, 5302261818, 5302261817,
+        5302261816, 5302261820, 5302261819
+      ],
+      "tags": {
+        "bicycle": "dismount",
+        "highway": "pedestrian",
+        "name": "Calle Arenal",
+        "oneway": "no",
+        "postal_code": "28013",
+        "surface": "paving_stones",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549521332,
+      "nodes": [
+        5308158343, 5308158342, 5308158341, 5308158340, 5308158339, 5308158338,
+        5308158337, 5308158336, 5308158335, 5308158334, 5308158333, 5308349771,
+        5308349770, 5308349769, 5308349768, 5308349767, 5308349766, 5308349765
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549548249,
+      "nodes": [5308349764, 5308349763, 5308349762, 5308349793],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549548251,
+      "nodes": [5308349764, 5308349765],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549548771,
+      "nodes": [5308353499, 5308353498],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549548772,
+      "nodes": [5308349793, 1522690031, 5308353499],
+      "tags": {
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551719,
+      "nodes": [5308384165, 21734240],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "noname": "yes",
+        "postal_code": "28012",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551720,
+      "nodes": [5308384173, 21734274],
+      "tags": {
+        "highway": "pedestrian",
+        "noname": "yes",
+        "postal_code": "28012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551721,
+      "nodes": [5308384166, 21734237],
+      "tags": {
+        "bicycle": "dismount",
+        "highway": "pedestrian",
+        "noname": "yes",
+        "postal_code": "28012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551722,
+      "nodes": [5308384167, 21734236],
+      "tags": {
+        "highway": "pedestrian",
+        "noname": "yes",
+        "postal_code": "28012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551723,
+      "nodes": [5308384168, 21734231],
+      "tags": {
+        "highway": "pedestrian",
+        "noname": "yes",
+        "postal_code": "28012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551724,
+      "nodes": [5308384172, 21734239],
+      "tags": {
+        "highway": "pedestrian",
+        "noname": "yes",
+        "postal_code": "28012"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551725,
+      "nodes": [5308384169, 1316127385],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "noname": "yes",
+        "postal_code": "28012",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551726,
+      "nodes": [5308384170, 21734238],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "noname": "yes",
+        "postal_code": "28012",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551727,
+      "nodes": [5308384171, 26213540],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "noname": "yes",
+        "postal_code": "28012",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551728,
+      "nodes": [5308384172, 5308384169, 5308384170, 5308384175],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "noname": "yes",
+        "postal_code": "28012",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549551729,
+      "nodes": [
+        5308384175, 5308384171, 5308384174, 5308384165, 5308384173, 5308384166,
+        5308384167, 5308384168, 5308384172
+      ],
+      "tags": {
+        "bicycle": "dismount",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "noname": "yes",
+        "postal_code": "28012",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 552531831,
+      "nodes": [26212784, 3257245160, 5334568890],
+      "tags": {
+        "access": "no",
+        "bus": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "lanes": "1",
+        "name": "Plaza de Isabel II",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "taxi": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554357606,
+      "nodes": [5350038445, 1255433822],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway:both": "no",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "motor_vehicle": "destination",
+        "name": "Calle de Arrieta",
+        "postal_code": "28013",
+        "psv": "yes",
+        "sidewalk": "both",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q29002218"
+      }
+    },
+    {
+      "type": "way",
+      "id": 568315350,
+      "nodes": [3579004058, 5467736270, 26213544],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 568315351,
+      "nodes": [3579004056, 5467736271, 26213544],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 591672036,
+      "nodes": [1640604437, 1640604449, 1640604460],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 591672037,
+      "nodes": [1640604460, 1640604467, 1640604497],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 591672038,
+      "nodes": [1640604435, 1640604414, 1640604356],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 591672039,
+      "nodes": [1640604494, 1640604465, 1640604456],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 652285628,
+      "nodes": [510827515, 6115513416, 347603099, 6115513417],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "location": "underground",
+        "oneway": "no",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 652285630,
+      "nodes": [
+        6115513399, 1796743677, 6115513432, 851942131, 6115513394, 6115513433,
+        6115513392
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "tertiary",
+        "layer": "-2",
+        "location": "underground",
+        "maxheight": "2.8 m",
+        "maxspeed": "20",
+        "name": "Calle de Toledo",
+        "oneway": "yes",
+        "postal_code": "28005",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 652285631,
+      "nodes": [
+        1796743678, 6115513421, 6115513426, 6115513422, 6115513425, 6115513423,
+        6115513424, 6115513431, 6115513420, 6115513419, 6115513418, 6115513413,
+        6115513412, 6115513411, 6115513410
+      ],
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 652285633,
+      "nodes": [6115513417, 6115513440, 1796743678, 6115513397, 510827515],
+      "tags": {
+        "highway": "service",
+        "layer": "-2",
+        "location": "underground",
+        "oneway": "no",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 686214267,
+      "nodes": [26213304, 26213305],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "motor_vehicle": "destination",
+        "name": "Calle de Ca\u00f1os del Peral",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 686215409,
+      "nodes": [1258876332, 21734257, 345198698],
+      "tags": {
+        "cycleway:left": "lane",
+        "cycleway:right": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Calle Mayor",
+        "oneway:bicycle": "no",
+        "postal_code": "28013",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 686215410,
+      "nodes": [1258876332, 26213539],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Traves\u00eda de Bringas",
+        "oneway": "yes",
+        "postal_code": "28012",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 686216026,
+      "nodes": [26213588, 345198800, 26213589],
+      "tags": {
+        "access": "destination",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de San Nicol\u00e1s",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 689163623,
+      "nodes": [
+        21734254, 2600764328, 2600764330, 6553800036, 2600764336, 21734251,
+        8075992348, 3257430275, 1235055758, 3507562279, 3257430309, 3257430311,
+        21734252, 3257183401, 3507563005, 3257183404, 8075992347, 21734255,
+        3507563000, 6553800049, 3257430303, 3507562998, 3257430289, 3507562994,
+        3257430281, 3507562288, 3257183384, 6553800037, 3507562283, 3257183375,
+        21734254
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Plaza de Herradores",
+        "place": "square",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 692728952,
+      "nodes": [6503522624, 6503522623],
+      "tags": { "highway": "steps", "incline": "up" }
+    },
+    {
+      "type": "way",
+      "id": 692728957,
+      "nodes": [6503522640, 6503522639],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 692728958,
+      "nodes": [6503522641, 6503522640],
+      "tags": { "highway": "steps", "incline": "up", "step_count": "6" }
+    },
+    {
+      "type": "way",
+      "id": 702055266,
+      "nodes": [
+        26213282, 6592945019, 6592945021, 6592945022, 6592945025, 6592945024,
+        6592945023, 6592945020, 26213284
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "Plaza de la Villa",
+        "postal_code": "28005",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 702055267,
+      "nodes": [1235055742, 6592945027, 6592945026],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza de San Miguel",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 767647777,
+      "nodes": [1255433822, 26212784],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "shared_lane",
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "motor_vehicle": "destination",
+        "name": "Calle de Arrieta",
+        "postal_code": "28013",
+        "psv": "yes",
+        "sidewalk": "separate",
+        "source": "survey",
+        "surface": "paving_stones",
+        "wikidata": "Q29002218"
+      }
+    },
+    {
+      "type": "way",
+      "id": 823103721,
+      "nodes": [7684805425, 9593051420, 7684805426],
+      "tags": {
+        "highway": "steps",
+        "incline": "up",
+        "ramp:wheelchair": "no",
+        "step_count": "9"
+      }
+    },
+    {
+      "type": "way",
+      "id": 823103722,
+      "nodes": [7684805424, 9593051419, 7684805423],
+      "tags": {
+        "highway": "steps",
+        "incline": "up",
+        "ramp:wheelchair": "no",
+        "step_count": "9"
+      }
+    },
+    {
+      "type": "way",
+      "id": 866662396,
+      "nodes": [3257245142, 8078077926],
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 868827764,
+      "nodes": [26213205, 26213207, 26213219],
+      "tags": {
+        "emergency": "yes",
+        "goods": "yes",
+        "highway": "residential",
+        "motor_vehicle": "destination",
+        "name": "Calle de la Amnist\u00eda",
+        "oneway": "yes",
+        "postal_code": "28013",
+        "psv": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 895321694,
+      "nodes": [3507528477, 8322325507],
+      "tags": { "footway": "sidewalk", "highway": "footway", "noname": "yes" }
+    },
+    {
+      "type": "way",
+      "id": 895321695,
+      "nodes": [5308384174, 21734234],
+      "tags": {
+        "highway": "pedestrian",
+        "lit": "yes",
+        "noname": "yes",
+        "postal_code": "28012",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 895718045,
+      "nodes": [2017305765, 8326009617, 345198890],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 949083175,
+      "nodes": [26213303, 8785684064, 5467736269],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza de Isabel II",
+        "postal_code": "28013"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975106083,
+      "nodes": [1365680109, 5467736269],
+      "tags": { "highway": "footway" }
+    },
+    {
+      "type": "way",
+      "id": 980704023,
+      "nodes": [9071663157, 9071663150],
+      "tags": {
+        "covered": "no",
+        "handrail": "yes",
+        "handrail:left": "yes",
+        "handrail:right": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "step_count": "12",
+        "surface": "paving_stones",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981281940,
+      "nodes": [26213607, 9077087092, 26213606],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza del Conde de Miranda",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981281941,
+      "nodes": [9077087092, 9077087056],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza del Conde de Miranda",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981281942,
+      "nodes": [21954040, 9077087068],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Plaza del Conde de Barajas",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981281944,
+      "nodes": [
+        26213605, 3835559172, 3835559171, 927878157, 3835579677, 345531810
+      ],
+      "tags": {
+        "highway": "pedestrian",
+        "name": "Calle de Pu\u00f1onrostro",
+        "postal_code": "28005"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1042457224,
+      "nodes": [26342812, 1640604494, 1640604497, 1640604499, 1640604505],
+      "tags": { "highway": "pedestrian" }
+    },
+    {
+      "type": "way",
+      "id": 1057755387,
+      "nodes": [1255433822, 9719229572, 8785684064],
+      "tags": { "highway": "footway" }
+    }
+  ]
+}

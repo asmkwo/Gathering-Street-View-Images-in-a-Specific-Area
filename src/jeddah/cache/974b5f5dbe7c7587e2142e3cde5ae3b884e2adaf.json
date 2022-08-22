@@ -1,0 +1,867 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.58.3 b33c3320",
+  "osm3s": {
+    "timestamp_osm_base": "2022-07-18T12:01:40Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 361105,
+      "lat": 48.8722422,
+      "lon": 2.3382998,
+      "tags": { "highway": "traffic_signals" }
+    },
+    { "type": "node", "id": 361106, "lat": 48.8729517, "lon": 2.3333015 },
+    { "type": "node", "id": 361109, "lat": 48.8742988, "lon": 2.3327119 },
+    {
+      "type": "node",
+      "id": 398789,
+      "lat": 48.8722064,
+      "lon": 2.3328034,
+      "tags": { "junction": "yes", "name": "Place Jacques Rouch\u00e9" }
+    },
+    {
+      "type": "node",
+      "id": 25207343,
+      "lat": 48.8726046,
+      "lon": 2.3357435,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 94173692,
+      "lat": 48.8752609,
+      "lon": 2.3322934,
+      "tags": { "highway": "traffic_signals" }
+    },
+    { "type": "node", "id": 94219427, "lat": 48.8726771, "lon": 2.3352317 },
+    { "type": "node", "id": 169319602, "lat": 48.8716014, "lon": 2.3338689 },
+    { "type": "node", "id": 169320237, "lat": 48.8731777, "lon": 2.3314891 },
+    { "type": "node", "id": 169322499, "lat": 48.874598, "lon": 2.332582 },
+    {
+      "type": "node",
+      "id": 281709258,
+      "lat": 48.8729564,
+      "lon": 2.3315473,
+      "tags": {
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2009"
+      }
+    },
+    {
+      "type": "node",
+      "id": 369326446,
+      "lat": 48.876253,
+      "lon": 2.3318586,
+      "tags": {
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1227287658,
+      "lat": 48.8731435,
+      "lon": 2.3330888,
+      "tags": {
+        "name": "Grands Magasins (Galeries Lafayette)",
+        "railway": "subway_entrance",
+        "ref": "1",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "wheelchair": "no"
+      }
+    },
+    { "type": "node", "id": 1227287671, "lat": 48.8730025, "lon": 2.3335176 },
+    { "type": "node", "id": 1227287672, "lat": 48.8729382, "lon": 2.33396 },
+    { "type": "node", "id": 1227287676, "lat": 48.8730886, "lon": 2.3328334 },
+    {
+      "type": "node",
+      "id": 1227287677,
+      "lat": 48.8730107,
+      "lon": 2.3334515,
+      "tags": {
+        "name": "Boulevard Haussmann",
+        "railway": "subway_entrance",
+        "ref": "4",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "wheelchair": "no"
+      }
+    },
+    { "type": "node", "id": 1227287679, "lat": 48.8729516, "lon": 2.3338589 },
+    { "type": "node", "id": 1227287680, "lat": 48.8727922, "lon": 2.3337191 },
+    {
+      "type": "node",
+      "id": 1227287687,
+      "lat": 48.8730962,
+      "lon": 2.3327653,
+      "tags": {
+        "name": "Grands Magasins (Galeries Lafayette)",
+        "railway": "subway_entrance",
+        "ref": "1",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "wheelchair": "no"
+      }
+    },
+    { "type": "node", "id": 1227287688, "lat": 48.8731944, "lon": 2.3333974 },
+    {
+      "type": "node",
+      "id": 1227287692,
+      "lat": 48.8728007,
+      "lon": 2.3336531,
+      "tags": {
+        "name": "Rue de la Chauss\u00e9e d'Antin",
+        "railway": "subway_entrance",
+        "ref": "5",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1227287698,
+      "lat": 48.8732022,
+      "lon": 2.3333257,
+      "tags": {
+        "name": "Rue La Fayette",
+        "railway": "subway_entrance",
+        "ref": "2",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "wheelchair": "no"
+      }
+    },
+    { "type": "node", "id": 1227287707, "lat": 48.8729281, "lon": 2.3339196 },
+    { "type": "node", "id": 1227287717, "lat": 48.8728762, "lon": 2.3328385 },
+    { "type": "node", "id": 1227287728, "lat": 48.8729373, "lon": 2.3338559 },
+    { "type": "node", "id": 1227287730, "lat": 48.8731069, "lon": 2.3330514 },
+    {
+      "type": "node",
+      "id": 1227287734,
+      "lat": 48.8729266,
+      "lon": 2.3327083,
+      "tags": {
+        "name": "Rue Hal\u00e9vy",
+        "railway": "subway_entrance",
+        "ref": "3",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1232684999,
+      "lat": 48.8727772,
+      "lon": 2.3350882,
+      "tags": {
+        "name": "Rue Taitbout",
+        "railway": "subway_entrance",
+        "ref": "6",
+        "wheelchair": "no"
+      }
+    },
+    { "type": "node", "id": 1232772852, "lat": 48.8733804, "lon": 2.3343896 },
+    {
+      "type": "node",
+      "id": 1232772893,
+      "lat": 48.8741453,
+      "lon": 2.3338576,
+      "tags": {
+        "addr:housenumber": "37",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011"
+      }
+    },
+    { "type": "node", "id": 1232772930, "lat": 48.8734802, "lon": 2.3343962 },
+    { "type": "node", "id": 1232773171, "lat": 48.8734989, "lon": 2.3338094 },
+    {
+      "type": "node",
+      "id": 1387269051,
+      "lat": 48.8727964,
+      "lon": 2.3318096,
+      "tags": {
+        "bus": "yes",
+        "name": "Gluck - Haussmann",
+        "public_transport": "stop_position"
+      }
+    },
+    { "type": "node", "id": 1519498106, "lat": 48.8725965, "lon": 2.3358001 },
+    { "type": "node", "id": 1519498112, "lat": 48.8726456, "lon": 2.3354537 },
+    {
+      "type": "node",
+      "id": 1519498114,
+      "lat": 48.8726872,
+      "lon": 2.3351607,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1519500111,
+      "lat": 48.8725522,
+      "lon": 2.3361127,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    { "type": "node", "id": 1540677933, "lat": 48.873074, "lon": 2.3332844 },
+    {
+      "type": "node",
+      "id": 1757649347,
+      "lat": 48.8723662,
+      "lon": 2.3374249,
+      "tags": { "highway": "traffic_signals" }
+    },
+    {
+      "type": "node",
+      "id": 2180084710,
+      "lat": 48.8722572,
+      "lon": 2.3381938,
+      "tags": {
+        "crossing": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2323405584,
+      "lat": 48.8752035,
+      "lon": 2.3323169,
+      "tags": {
+        "crossing": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2323405588,
+      "lat": 48.8753242,
+      "lon": 2.3322662,
+      "tags": {
+        "crossing": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2323405598,
+      "lat": 48.8761833,
+      "lon": 2.3318891,
+      "tags": {
+        "crossing": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2388988911,
+      "lat": 48.8732282,
+      "lon": 2.3331807,
+      "tags": {
+        "crossing": "marked",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes",
+        "traffic_sign": "FR:B30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2388988914,
+      "lat": 48.8731412,
+      "lon": 2.3317672,
+      "tags": {
+        "crossing": "zebra",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2388988915,
+      "lat": 48.873148,
+      "lon": 2.3335318,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2388988919,
+      "lat": 48.8727467,
+      "lon": 2.3333876,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2388988923,
+      "lat": 48.8729969,
+      "lon": 2.3329379,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2388988929,
+      "lat": 48.8718794,
+      "lon": 2.3337743,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2388988932,
+      "lat": 48.8729136,
+      "lon": 2.3335634,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "source": "bing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2712550039,
+      "lat": 48.8723487,
+      "lon": 2.3325614,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2712550040,
+      "lat": 48.8723991,
+      "lon": 2.3328929,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2712550043,
+      "lat": 48.872897,
+      "lon": 2.3316306,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3263830250,
+      "lat": 48.8742469,
+      "lon": 2.3327354,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3263832061,
+      "lat": 48.8723797,
+      "lon": 2.33733,
+      "tags": {
+        "crossing": "marked",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3263832078,
+      "lat": 48.8746939,
+      "lon": 2.3325401,
+      "tags": {
+        "crossing": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3263832084,
+      "lat": 48.8743481,
+      "lon": 2.3326912,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4751468223,
+      "lat": 48.8744407,
+      "lon": 2.3326507,
+      "tags": {
+        "bus": "yes",
+        "name": "Chauss\u00e9e d'Antin",
+        "public_transport": "stop_position",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4751468224,
+      "lat": 48.8760961,
+      "lon": 2.3319272,
+      "tags": {
+        "bus": "yes",
+        "name": "Trinit\u00e9",
+        "public_transport": "stop_position",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6069357405,
+      "lat": 48.8728184,
+      "lon": 2.3342348,
+      "tags": {
+        "bus": "yes",
+        "name": "Chauss\u00e9e d'Antin",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6126535122,
+      "lat": 48.8727989,
+      "lon": 2.333065,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6202073365,
+      "lat": 48.872593,
+      "lon": 2.3329779,
+      "tags": {
+        "bus": "yes",
+        "name": "Chauss\u00e9e d'Antin",
+        "public_transport": "stop_position"
+      }
+    },
+    { "type": "node", "id": 6230387925, "lat": 48.8731037, "lon": 2.3334355 },
+    { "type": "node", "id": 7679407161, "lat": 48.8731089, "lon": 2.3332274 },
+    { "type": "node", "id": 9425623766, "lat": 48.8730306, "lon": 2.333218 },
+    {
+      "type": "node",
+      "id": 9632584296,
+      "lat": 48.8728862,
+      "lon": 2.3337552,
+      "tags": {
+        "bus": "yes",
+        "name": "Chauss\u00e9e d'Antin",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4039406,
+      "nodes": [361106, 2388988919, 2388988929, 169319602],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue de la Chauss\u00e9e d'Antin",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25826995,
+      "nodes": [2712550039, 1387269051, 2712550043, 281709258],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Rue Gluck",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34678160,
+      "nodes": [361106, 2388988923, 2388988914, 169320237],
+      "tags": {
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Boulevard Haussmann",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "source:maxspeed": "FR:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 69315571,
+      "nodes": [
+        361105, 2180084710, 1757649347, 3263832061, 1519500111, 1519498106,
+        25207343, 1519498112, 94219427, 1519498114, 6069357405, 9632584296,
+        2388988932, 361106
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Boulevard Haussmann",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 91301109,
+      "nodes": [398789, 2712550040, 6202073365, 6126535122, 361106],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue Hal\u00e9vy",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703435,
+      "nodes": [1227287717, 1227287734],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "ramp": "no",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "step_count": "22",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703437,
+      "nodes": [1227287672, 1227287679],
+      "tags": {
+        "highway": "steps",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703440,
+      "nodes": [1227287680, 1227287692],
+      "tags": {
+        "highway": "steps",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703448,
+      "nodes": [1227287676, 1227287687],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "yes",
+        "ramp": "no",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "step_count": "23",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703454,
+      "nodes": [1227287688, 1227287698],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "yes",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703456,
+      "nodes": [1227287707, 1227287728],
+      "tags": {
+        "highway": "steps",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703458,
+      "nodes": [1227287671, 1227287677],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106703460,
+      "nodes": [1227287730, 1227287658],
+      "tags": {
+        "highway": "steps",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107220598,
+      "nodes": [1232772930, 1232773171, 1232772893],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxweight": "2",
+        "name": "Cit\u00e9 d'Antin",
+        "note": "Voie priv\u00e9e ouverte aux pi\u00e9tons",
+        "oneway": "yes",
+        "source": "cadastre-dgi-fr source : Direction G\u00e9n\u00e9rale des Imp\u00f4ts - Cadastre. Mise \u00e0 jour : 2011",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 140668976,
+      "nodes": [1540677933, 1227287658],
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "location": "underground",
+        "source": "survey",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 140668981,
+      "nodes": [1227287677, 1540677933, 1227287698],
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "location": "underground",
+        "source": "survey",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 260896302,
+      "nodes": [1227287677, 1227287672, 1232684999],
+      "tags": {
+        "bicycle": "no",
+        "highway": "footway",
+        "horse": "no",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271182471,
+      "nodes": [9425623766, 1227287676],
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "location": "underground",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271182474,
+      "nodes": [9425623766, 1227287717],
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "location": "underground",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271182476,
+      "nodes": [9425623766, 1227287680],
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "location": "underground",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271182479,
+      "nodes": [1540677933, 9425623766],
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "location": "underground",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 542064424,
+      "nodes": [
+        369326446, 2323405598, 4751468224, 2323405588, 94173692, 2323405584,
+        3263832078, 169322499, 4751468223, 3263832084, 361109, 3263830250,
+        2388988911, 7679407161, 361106
+      ],
+      "tags": {
+        "bicycle:lanes": "yes|designated",
+        "bus:lanes": "yes|designated",
+        "busway:right": "lane",
+        "cycleway:left": "opposite_track",
+        "cycleway:right": "share_busway",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Rue de la Chauss\u00e9e d'Antin",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "psv:lanes": "yes|designated",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "taxi:lanes": "yes|designated"
+      }
+    },
+    {
+      "type": "way",
+      "id": 848345874,
+      "nodes": [361106, 6230387925, 2388988915, 1232772852],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Rue La Fayette",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971432939,
+      "nodes": [398789, 2712550039],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Place Jacques Rouch\u00e9",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

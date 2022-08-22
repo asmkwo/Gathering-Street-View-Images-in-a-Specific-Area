@@ -24,7 +24,7 @@ class Point:
             else:
                 return False
         else:
-            raise TypeError('Wrong type comparison. You are not comparing two points. ')
+            raise TypeError("Wrong type comparison. You are not comparing two points. ")
 
     def __str__(self) -> str:
         return str(self.latitude) + "," + str(self.longitude)

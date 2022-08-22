@@ -1,5 +1,4 @@
 import math
-from time import sleep
 from typing import List, Tuple
 
 import pyproj
@@ -23,17 +22,17 @@ API_KEY = settings.api_key.get_secret_value()
 
 def snap_to_road_and_interpolate(point_list: List[Point]) -> List[Point]:
     """
-    Snaps a list of points to the nearest Road using Google's Roads API, and can add new
-     points in between the ones in the given list if interpolation_boolean set to 'true'
+    Snaps a list of points to the nearest Road using Google"s Roads API, and can add new
+     points in between the ones in the given list if interpolation_boolean set to "true"
 
     """
     # request to Roads API requires the path to be a certain string format
     coords_as_path_for_api = coords_as_path_str(point_list)
 
     params = {
-        'key': API_KEY,
-        'path': coords_as_path_for_api,
-        'interpolate': 'true',
+        "key": API_KEY,
+        "path": coords_as_path_for_api,
+        "interpolate": "true",
     }
     # requesting the Roads API
     try:
@@ -42,7 +41,6 @@ def snap_to_road_and_interpolate(point_list: List[Point]) -> List[Point]:
 
         # turn the json response into a list
         point_list = json_as_path(json_path)
-
     except requests.exceptions.HTTPError as e:
         print("Error: " + str(e))
 
@@ -137,7 +135,7 @@ def get_heading(point_1: Point, point_2: Point) -> int:
     north)  between two points
     """
 
-    geodesic = pyproj.Geod(ellps='WGS84')
+    geodesic = pyproj.Geod(ellps="WGS84")
     lat1, long1 = point_1.latitude, point_1.longitude
     lat2, long2 = point_2.latitude, point_2.longitude
     fwd_azimuth, _, _ = geodesic.inv(long1, lat1, long2, lat2)
@@ -160,8 +158,6 @@ def make_a_step_and_snap(heading: int, current_point: Point, distance: int) -> P
         180 / math.pi
     ) / math.cos(lat * math.pi / 180)
     next_point = Point(new_lat, new_long)
-
-    snapped_point = snap_single_point_to_roads(next_point)
 
     return next_point
 

@@ -5,9 +5,9 @@ __pycache__
 dist
 database/
 *.png
-.idea
 API_KEY.txt
 API_KEY2.txt
 *.pyc
 settings.py
 *.pyc
+just_for_f.py

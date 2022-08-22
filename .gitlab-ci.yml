@@ -8,7 +8,7 @@ variables:
   POSTGRESQL_DATABASE: street_view_db
   POSTGRESQL_USERNAME: postgres
   POSTGRESQL_PASSWORD: postgres
-  POSTGRESQL_HOST: postgresql
+  POSTGRESQL_HOSTNAME: postgresql
   POSTGRESQL_PORT: 5432
   DATABASE_PATH: /temp/database
   DATABASE_TEST_PATH: /temp/database/test
